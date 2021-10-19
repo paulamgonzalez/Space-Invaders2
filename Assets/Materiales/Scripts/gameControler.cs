@@ -5,9 +5,25 @@ using TMPro;
 
 public class gameControler : MonoBehaviour
 {
+
+    public static gameControler instance;
+
     public GameObject introScreen;
     public GameObject pressAnyButtonScreen;
     // Start is called before the first frame update
+
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
+
     void Start()
     {
 
@@ -16,7 +32,10 @@ public class gameControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            gameControler.instance.EnterGame();
+        }
     }
 
     public void EnterGame()

@@ -34,11 +34,11 @@ public class gameControler : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            gameControler.instance.EnterGame();
+            gameControler.instance.EnterIntro();
         }
     }
 
-    public void EnterGame()
+    public void EnterIntro()
     {
         introScreen.SetActive(false);
         pressAnyButtonScreen.SetActive(true);

@@ -12,6 +12,8 @@ public class gameControler : MonoBehaviour
     public GameObject pressAnyButtonScreen;
     public GameObject pantallaInicial;
 
+    private float cronometro = 0.0f;
+
     // Start is called before the first frame update
 
     void Awake()
@@ -34,17 +36,16 @@ public class gameControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (introScreen.activeSelf)
-        {
-            if(Input.GetKeyDown(KeyCode.Space))
+        //Que cuando el texto desaparezca se cambie a la segunda pantalla
+            if(cronometro>=76.55f)
             {
                 gameControler.instance.EnableScreenAnybutton();
             }
-            
-        }
-
-       
-
+        //Que cambie a la segunda pantalla al dar espacio
+           else if(Input.GetKeyDown(KeyCode.Space))
+            {
+                gameControler.instance.EnableScreenAnybutton();
+            }
     }
 
 
@@ -52,13 +53,11 @@ public class gameControler : MonoBehaviour
     public void EnableScreenAnybutton()
     {
         introScreen.SetActive(false);
-        pressAnyButtonScreen.SetActive(true);
-        
+        pressAnyButtonScreen.SetActive(true);       
     }
 
     public void EnablePantallaInicial()
     {
-        introScreen.SetActive(false);
         pressAnyButtonScreen.SetActive(false);
         pantallaInicial.SetActive(true);
     }

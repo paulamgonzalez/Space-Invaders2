@@ -38,17 +38,22 @@ public class gameControler : MonoBehaviour
     {
         cronometro += Time.deltaTime;
         //Que cuando el texto desaparezca se cambie a la segunda pantalla
-        if (cronometro>=76.55f)
-            {
-               
+            if (cronometro>=77.0f)
+            {               
                 gameControler.instance.EnableScreenAnybutton();
             }
+
         //Que cambie a la segunda pantalla al dar espacio
            if(Input.GetKeyDown(KeyCode.Space))
            {
                 gameControler.instance.EnableScreenAnybutton();
            }
-         
+
+        //Que cuando le des a cualquier tecla se cambie a una tercera pantalla
+           if(Input.GetKeyDown(KeyCode.Escape))
+           {
+                gameControler.instance.EnablePantallaInicial();
+           }        
     }
 
 

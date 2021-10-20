@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 16319 MB
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 32711 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,61 +11,64 @@ C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2
+F:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57881
-Successfully changed project path to: E:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2
-E:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2
+55307
+Successfully changed project path to: F:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2
+F:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2/Assets
+[Subsystems] Discovering subsystems at path F:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   
-    VRAM:     8079 MB
-    Driver:   30.0.14.7212
+    VRAM:     4018 MB
+    Driver:   27.21.14.5751
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001979 seconds.
+Registered in 0.002214 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.24 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 24.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.657 seconds
+- Completed reload, in  1.789 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003019 seconds.
+Registered in 0.003381 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.867 seconds
+- Completed reload, in  0.865 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.8 MB.
-System memory in use after: 66.9 MB.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.9 MB.
+System memory in use after: 67.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1833.
-Total: 1.627300 ms (FindLiveObjects: 0.105300 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.425300 ms  DeleteObjects: 0.062900 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 1.717700 ms (FindLiveObjects: 0.120200 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.491300 ms  DeleteObjects: 0.068500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,110 +82,224 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materiales/introScreen/Animaciones/textoIntroScreen.anim
-  artifactKey: Guid(d79e92d553a842c42a4a9cae3279f2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Animaciones/textoIntroScreen.anim using Guid(d79e92d553a842c42a4a9cae3279f2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1330ef6eb9f74ff43267e7a870a9e1') in 0.037251 seconds 
-  Import took 0.039092 seconds .
+  path: Assets/Materiales/introScreen/Animaciones/press space to skip.anim
+  artifactKey: Guid(0bcfe28c4718c6740beef97972843cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/press space to skip.anim using Guid(0bcfe28c4718c6740beef97972843cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f32220269d331790d43391ad90d5ddd') in 0.030481 seconds 
+  Import took 0.032430 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.020481 seconds.
+  Time since last request: 682.859291 seconds.
+  path: Assets/Materiales/introScreen/Animaciones
+  artifactKey: Guid(03e06fedb6659a94dbb30c5152543bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones using Guid(03e06fedb6659a94dbb30c5152543bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9cb67784fdbfbd01ba67844d5fbc0d') in 0.037651 seconds 
+  Import took 0.039990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.819001 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star 14.anim
+  artifactKey: Guid(a21fb9c6e6c0e7f45b2ec354fc32558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star 14.anim using Guid(a21fb9c6e6c0e7f45b2ec354fc32558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bfd9645b44d67fb1267482cd8a78e0') in 0.008826 seconds 
+  Import took 0.010969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001545 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star 14.anim
+  artifactKey: Guid(a21fb9c6e6c0e7f45b2ec354fc32558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star 14.anim using Guid(a21fb9c6e6c0e7f45b2ec354fc32558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bfd9645b44d67fb1267482cd8a78e0') in 0.005319 seconds 
+  Import took 0.007412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.452317 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/Star1.anim
+  artifactKey: Guid(08cd4a95b6b91484d84d68f0fbd1323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/Star1.anim using Guid(08cd4a95b6b91484d84d68f0fbd1323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc73cda165b7d54f8392ca3bf00b5e14') in 0.008218 seconds 
+  Import took 0.010913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001916 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/Star1.anim
+  artifactKey: Guid(08cd4a95b6b91484d84d68f0fbd1323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/Star1.anim using Guid(08cd4a95b6b91484d84d68f0fbd1323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc73cda165b7d54f8392ca3bf00b5e14') in 0.006098 seconds 
+  Import took 0.008191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.059033 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star2.anim
+  artifactKey: Guid(620339a3798bb554782b464b0b0bc9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star2.anim using Guid(620339a3798bb554782b464b0b0bc9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb33fc437d8359a16d6c96c82393f51') in 0.007857 seconds 
+  Import took 0.010055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003419 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star2.anim
+  artifactKey: Guid(620339a3798bb554782b464b0b0bc9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star2.anim using Guid(620339a3798bb554782b464b0b0bc9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb33fc437d8359a16d6c96c82393f51') in 0.004208 seconds 
+  Import took 0.006267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.241060 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star3.anim
+  artifactKey: Guid(2c38249d6342d7e4b88edf0c8b943768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star3.anim using Guid(2c38249d6342d7e4b88edf0c8b943768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb4e019be8ce90fa19b060258126161') in 0.007215 seconds 
+  Import took 0.009287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.038251 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star4.anim
+  artifactKey: Guid(be4b653bf6f1b454999dbb5ca117f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star4.anim using Guid(be4b653bf6f1b454999dbb5ca117f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83c46d2a8915da47fb26011d2ffe754') in 0.008490 seconds 
+  Import took 0.011086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star4.anim
+  artifactKey: Guid(be4b653bf6f1b454999dbb5ca117f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star4.anim using Guid(be4b653bf6f1b454999dbb5ca117f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83c46d2a8915da47fb26011d2ffe754') in 0.004647 seconds 
+  Import took 0.006986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.949599 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star6.anim
+  artifactKey: Guid(eca683ac17055f64aba64e2b9b22b9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star6.anim using Guid(eca683ac17055f64aba64e2b9b22b9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5297a720e7515e5d9d3191636d470036') in 0.008245 seconds 
+  Import took 0.056621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.161280 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star7.anim
+  artifactKey: Guid(931340c2e6b68cd408c661cb4d8e501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star7.anim using Guid(931340c2e6b68cd408c661cb4d8e501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf85cf3b381586241f33f444c2424ce') in 0.008368 seconds 
+  Import took 0.010651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001507 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star7.anim
+  artifactKey: Guid(931340c2e6b68cd408c661cb4d8e501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star7.anim using Guid(931340c2e6b68cd408c661cb4d8e501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf85cf3b381586241f33f444c2424ce') in 0.003278 seconds 
+  Import took 0.005562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.097180 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star8.anim
+  artifactKey: Guid(f52799f46bdfd53468a202e1957c933d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star8.anim using Guid(f52799f46bdfd53468a202e1957c933d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdab8caef9fde6541a3b8410bf370820') in 0.008595 seconds 
+  Import took 0.010803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001926 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star8.anim
+  artifactKey: Guid(f52799f46bdfd53468a202e1957c933d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star8.anim using Guid(f52799f46bdfd53468a202e1957c933d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdab8caef9fde6541a3b8410bf370820') in 0.004495 seconds 
+  Import took 0.006595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.686960 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star9.anim
+  artifactKey: Guid(5f7b9afd88c64ed44898b1084c0e78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star9.anim using Guid(5f7b9afd88c64ed44898b1084c0e78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bb13eee7b8988870fe23c384d968a9') in 0.007837 seconds 
+  Import took 0.009966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003867 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star9.anim
+  artifactKey: Guid(5f7b9afd88c64ed44898b1084c0e78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star9.anim using Guid(5f7b9afd88c64ed44898b1084c0e78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bb13eee7b8988870fe23c384d968a9') in 0.004200 seconds 
+  Import took 0.006385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.246763 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star10.anim
+  artifactKey: Guid(01496779cd0595e408a8c0d5562a9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star10.anim using Guid(01496779cd0595e408a8c0d5562a9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f123cc44f55ad5d093fd665f7930d8') in 0.007260 seconds 
+  Import took 0.009632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002469 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star10.anim
+  artifactKey: Guid(01496779cd0595e408a8c0d5562a9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star10.anim using Guid(01496779cd0595e408a8c0d5562a9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f123cc44f55ad5d093fd665f7930d8') in 0.005344 seconds 
+  Import took 0.007570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.988855 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star11.anim
+  artifactKey: Guid(e791e3eaed514d244b9924365f14f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star11.anim using Guid(e791e3eaed514d244b9924365f14f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7902e453caffb0591cb5a12d0969a0b4') in 0.007424 seconds 
+  Import took 0.009892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.897797 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star12.anim
+  artifactKey: Guid(b20ee83bd4c033a4eb65e0411435a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star12.anim using Guid(b20ee83bd4c033a4eb65e0411435a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5747df63bdb1e21fae35c78c3a107df5') in 0.007690 seconds 
+  Import took 0.009907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002194 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star12.anim
+  artifactKey: Guid(b20ee83bd4c033a4eb65e0411435a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star12.anim using Guid(b20ee83bd4c033a4eb65e0411435a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5747df63bdb1e21fae35c78c3a107df5') in 0.004287 seconds 
+  Import took 0.006438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.920346 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star13.anim
+  artifactKey: Guid(382793c7a6912d84c935549dfee40340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star13.anim using Guid(382793c7a6912d84c935549dfee40340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7d2a392092a637d62f31bf77192060') in 0.007429 seconds 
+  Import took 0.009767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003121 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star13.anim
+  artifactKey: Guid(382793c7a6912d84c935549dfee40340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star13.anim using Guid(382793c7a6912d84c935549dfee40340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7d2a392092a637d62f31bf77192060') in 0.003663 seconds 
+  Import took 0.005662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.874493 seconds.
   path: Assets/Materiales/introScreen/Animaciones/tituloSpaceInvaders.anim
   artifactKey: Guid(f125488239221334d940731bd63b1cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Animaciones/tituloSpaceInvaders.anim using Guid(f125488239221334d940731bd63b1cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a16f450700b69178bb9f0c70f183a31') in 0.009646 seconds 
-  Import took 0.011496 seconds .
+Start importing Assets/Materiales/introScreen/Animaciones/tituloSpaceInvaders.anim using Guid(f125488239221334d940731bd63b1cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49557f9154c32f62c8fe8a0deb8d7f45') in 0.016608 seconds 
+  Import took 0.018594 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 92.684722 seconds.
-  path: Assets/Materiales/introScreen/Animaciones/spaceInvaders.controller
-  artifactKey: Guid(1bfb53231f1eef148bf8d8f9af0ed5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Animaciones/spaceInvaders.controller using Guid(1bfb53231f1eef148bf8d8f9af0ed5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c275c9363cc7e4a69cacc8ac9d117f') in 0.010492 seconds 
-  Import took 0.012417 seconds .
+  Time since last request: 63.205986 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star5.anim
+  artifactKey: Guid(c3495e2d7cefaa248a22faed1221c842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star5.anim using Guid(c3495e2d7cefaa248a22faed1221c842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47adfc24686d2522ad15275bb97b1465') in 0.008808 seconds 
+  Import took 0.011134 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.821774 seconds.
-  path: Assets/Materiales/introScreen/Fuentes/HigherPixels SDF.asset
-  artifactKey: Guid(454df0bd9ddcab84b83d399fb8b9a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Fuentes/HigherPixels SDF.asset using Guid(454df0bd9ddcab84b83d399fb8b9a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef49938f3ea9064e2e5630f06a08fcd') in 0.188550 seconds 
-  Import took 0.190676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Materiales/introScreen/Fuentes/ka1 SDF.asset
-  artifactKey: Guid(59f3a94f4fb3eba4288175865bf19930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Fuentes/ka1 SDF.asset using Guid(59f3a94f4fb3eba4288175865bf19930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285c53cb5ead09e2b8c4c4129eaa19ff') in 0.114598 seconds 
-  Import took 0.116468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003544 seconds.
-  path: Assets/Materiales/introScreen/Fuentes/Pixelic War SDF.asset
-  artifactKey: Guid(b36dd2f666f7ba941a586ac3af2b33e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Fuentes/Pixelic War SDF.asset using Guid(b36dd2f666f7ba941a586ac3af2b33e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff658cb9c5d6c300718b7f6b1a703f6f') in 0.024705 seconds 
-  Import took 0.027066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.031302 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80217e6c75f9d2e4957cbc8093faaf48') in 0.039550 seconds 
-  Import took 0.041577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.729760 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78a27303d38c5bc73b55289faa0930d') in 0.058836 seconds 
-  Import took 0.060756 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003828 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.828 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.9 MB.
-System memory in use after: 69.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1879.
-Total: 1.654600 ms (FindLiveObjects: 0.132800 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.439000 ms  DeleteObjects: 0.043900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 229.721877 seconds.
-  path: Assets/Materiales/introScreen/Estrellas/Materials
-  artifactKey: Guid(b9982bb08b93c8d468e18967c893e17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Estrellas/Materials using Guid(b9982bb08b93c8d468e18967c893e17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f677b5bd08e49bfe8987aca30c7d85d') in 0.008532 seconds 
-  Import took 0.010397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.082932 seconds.
-  path: Assets/Materiales/introScreen/Estrellas/Materials/EstrellaTipo1.mat
-  artifactKey: Guid(0a4a77434848a04459555069617e69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Estrellas/Materials/EstrellaTipo1.mat using Guid(0a4a77434848a04459555069617e69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77840d1a4530ab19be69107d91db82f8') in 0.064297 seconds 
-  Import took 0.066557 seconds .
+  Time since last request: 0.001852 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star5.anim
+  artifactKey: Guid(c3495e2d7cefaa248a22faed1221c842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star5.anim using Guid(c3495e2d7cefaa248a22faed1221c842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47adfc24686d2522ad15275bb97b1465') in 0.004657 seconds 
+  Import took 0.006727 seconds .
 

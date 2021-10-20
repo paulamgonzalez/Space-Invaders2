@@ -303,3 +303,12 @@ Received Import Request.
 Start importing Assets/Materiales/introScreen/Animaciones/star5.anim using Guid(c3495e2d7cefaa248a22faed1221c842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47adfc24686d2522ad15275bb97b1465') in 0.004657 seconds 
   Import took 0.006727 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 209.991502 seconds.
+  path: Assets/Materiales/introScreen/Animaciones/star13.anim
+  artifactKey: Guid(382793c7a6912d84c935549dfee40340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Animaciones/star13.anim using Guid(382793c7a6912d84c935549dfee40340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f341bd688c8d392550a6d6b0c97e0ef2') in 0.004156 seconds 
+  Import took 0.006382 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

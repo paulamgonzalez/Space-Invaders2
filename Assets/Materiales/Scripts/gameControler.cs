@@ -44,7 +44,7 @@ public class gameControler : MonoBehaviour
             }
 
         //Que cambie a la segunda pantalla al dar espacio
-           if(Input.GetKeyDown(KeyCode.Space))
+           else if(Input.GetKeyDown(KeyCode.Space))
            {
                 gameControler.instance.EnableScreenAnybutton();
            }

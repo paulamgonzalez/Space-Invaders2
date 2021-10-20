@@ -36,16 +36,19 @@ public class gameControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        cronometro += Time.deltaTime;
         //Que cuando el texto desaparezca se cambie a la segunda pantalla
-            if(cronometro>=76.55f)
+        if (cronometro>=76.55f)
             {
+               
                 gameControler.instance.EnableScreenAnybutton();
             }
         //Que cambie a la segunda pantalla al dar espacio
-           else if(Input.GetKeyDown(KeyCode.Space))
-            {
+           if(Input.GetKeyDown(KeyCode.Space))
+           {
                 gameControler.instance.EnableScreenAnybutton();
-            }
+           }
+         
     }
 
 

@@ -49,15 +49,15 @@ public class gameControler : MonoBehaviour
             {
                 gameControler.instance.EnableScreenAnybutton();
             }
+        }         
+        else if (pressAnyButtonScreen.activeSelf == true && Input.GetKeyDown(KeyCode.Space))
+        {
+            gameControler.instance.EnablePantallaInicial();
         }
-         
-
-        //Que cuando le des a cualquier tecla se cambie a una tercera pantalla
-           if(Input.GetKeyDown(KeyCode.Escape) && pressAnyButtonScreen.activeSelf == true)
-           {
-                gameControler.instance.EnablePantallaInicial();
-           }        
     }
+
+
+
 
 
     //Entrar a la pantalla de espera

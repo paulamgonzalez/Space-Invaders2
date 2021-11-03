@@ -11,6 +11,7 @@ public class gameControler : MonoBehaviour
     public GameObject introScreen;
     public GameObject pressAnyButtonScreen;
     public GameObject pantallaInicial;
+    public GameObject pantallaOpciones;
 
     private float cronometro = 0.0f;
 
@@ -71,5 +72,11 @@ public class gameControler : MonoBehaviour
     {
         pressAnyButtonScreen.SetActive(false);
         pantallaInicial.SetActive(true);
+    }
+
+    public void EnablePantallaOpciones()
+    {
+        pantallaInicial.SetActive(false);
+        pantallaOpciones.SetActive(true);
     }
 }

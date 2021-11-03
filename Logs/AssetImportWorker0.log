@@ -15,11 +15,11 @@ E:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49750
+55718
 Successfully changed project path to: E:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2
 E:/Cesar manrique/RAY/SpaceInvaders/Space Invaders2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003707 seconds.
+Registered in 0.001891 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 24.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.912 seconds
+- Completed reload, in  1.707 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003441 seconds.
+Registered in 0.003034 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
+- Completed reload, in  0.865 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -61,11 +61,11 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 second
 Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1402 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.0 MB.
+System memory in use before: 67.1 MB.
 System memory in use after: 67.1 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1836.
-Total: 1.709500 ms (FindLiveObjects: 0.112500 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.495900 ms  DeleteObjects: 0.066100 ms)
+Total: 1.503500 ms (FindLiveObjects: 0.106900 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.278600 ms  DeleteObjects: 0.084000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,1246 +79,60 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/StarSparrow/Readme/ReadmeStarSparrow.asset
-  artifactKey: Guid(831b6df9656715346bac250feaa321a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Readme/ReadmeStarSparrow.asset using Guid(831b6df9656715346bac250feaa321a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa19819ea5c29c9c04dec6ae48b8b788') in 0.040356 seconds 
-  Import took 0.042278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.273894 seconds.
-  path: Assets/StarSparrow/Readme
-  artifactKey: Guid(a168e51bd12d0bc429bb2f08081d3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Readme using Guid(a168e51bd12d0bc429bb2f08081d3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a442b4d77b7854e750547d9e5ba24d84') in 0.008022 seconds 
-  Import took 0.078581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.910009 seconds.
-  path: Assets/StarSparrow/Readme/USC_Documentation.pdf
-  artifactKey: Guid(817a023b0eff4064ba8d1aa2a7a95ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Readme/USC_Documentation.pdf using Guid(817a023b0eff4064ba8d1aa2a7a95ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72c8b7003298b5de4f7c0cfc35554fb') in 0.012282 seconds 
-  Import took 0.057820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.053337 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow1.fbx
-  artifactKey: Guid(9eafec2478441af418574f3e9e971f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow1.fbx using Guid(9eafec2478441af418574f3e9e971f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88158077dc768962f6381c58b0e71546') in 0.249662 seconds 
-  Import took 0.251730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow2.fbx
-  artifactKey: Guid(935092da8210ce844895c8a67045f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow2.fbx using Guid(935092da8210ce844895c8a67045f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f0315ac84ebeee8a38f176944abfe1') in 0.015435 seconds 
-  Import took 0.017640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow8.fbx
-  artifactKey: Guid(15e01a88075383240a48bc4527c69658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow8.fbx using Guid(15e01a88075383240a48bc4527c69658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a740dbfe59e2031742a2c2081fb9c1') in 0.017402 seconds 
-  Import took 0.019484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow10.fbx
-  artifactKey: Guid(d32d4a735694a9f4f97a42117a1f919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow10.fbx using Guid(d32d4a735694a9f4f97a42117a1f919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df6bc6e6093191d88381a886cc4b9f2') in 0.014776 seconds 
-  Import took 0.016584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow9.fbx
-  artifactKey: Guid(c5854ef2d6dd2ab4ba6f56c2053676c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow9.fbx using Guid(c5854ef2d6dd2ab4ba6f56c2053676c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e213b8c12688d12031125d81eb8af27e') in 0.017499 seconds 
-  Import took 0.019461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow13.fbx
-  artifactKey: Guid(94c6c0903b5d2284fb621d96b5b82262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow13.fbx using Guid(94c6c0903b5d2284fb621d96b5b82262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b861e0c50821a743bd9dac48dc4a33d1') in 0.017825 seconds 
-  Import took 0.019758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow16.fbx
-  artifactKey: Guid(0913ee8c036b6dc468615920c91704e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow16.fbx using Guid(0913ee8c036b6dc468615920c91704e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9d52b924c717ef09318f8becdd1c88') in 0.016215 seconds 
-  Import took 0.046523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow20.fbx
-  artifactKey: Guid(2aa3be39e3a89da4ea9381a79b1d3c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow20.fbx using Guid(2aa3be39e3a89da4ea9381a79b1d3c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bea9e1f3abca008c0f8ae499eefb65') in 0.016318 seconds 
-  Import took 0.048954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrowModules.FBX
-  artifactKey: Guid(71e6e8f0e9dd9164da8d88a237ed787b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrowModules.FBX using Guid(71e6e8f0e9dd9164da8d88a237ed787b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3255c4cf00bd84e097779631610cfc6e') in 0.081112 seconds 
-  Import took 0.082953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow6.fbx
-  artifactKey: Guid(d84ec9911cfe0f142b57114817caaf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow6.fbx using Guid(d84ec9911cfe0f142b57114817caaf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc4ef852855135f7a72f0894c9088d4') in 0.014247 seconds 
-  Import took 0.016028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow4.fbx
-  artifactKey: Guid(7434f156f1a25df4596be6564fe60b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow4.fbx using Guid(7434f156f1a25df4596be6564fe60b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cce1ecc36aa90700b07908d046a1d5a') in 0.018372 seconds 
-  Import took 0.020223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow15.fbx
-  artifactKey: Guid(4ac596a5da39c934992511e9527a6984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow15.fbx using Guid(4ac596a5da39c934992511e9527a6984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cf9f6d57d0036e8cb78e428bc296f7') in 0.014869 seconds 
-  Import took 0.017185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow12.fbx
-  artifactKey: Guid(0e9d6058df1cdae40ad43cc3ded56497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow12.fbx using Guid(0e9d6058df1cdae40ad43cc3ded56497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c3e9f368c62e36338726de4ee0a636') in 0.016938 seconds 
-  Import took 0.019013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow19.fbx
-  artifactKey: Guid(0c96b086dbd8f5647806bfb7ee9b928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow19.fbx using Guid(0c96b086dbd8f5647806bfb7ee9b928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0542488da1bd673ba34458a9192613e0') in 0.017688 seconds 
-  Import took 0.019569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow14.fbx
-  artifactKey: Guid(a1ea0ecc2fbc5d64aa2935307474ff0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow14.fbx using Guid(a1ea0ecc2fbc5d64aa2935307474ff0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9ac3081f7171214f5543151d0c1fff') in 0.017991 seconds 
-  Import took 0.045063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow18.fbx
-  artifactKey: Guid(a9e1d66c337394b498df4fa2bc76d8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow18.fbx using Guid(a9e1d66c337394b498df4fa2bc76d8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7987df4d687050d28f9f6528511c14e4') in 0.015284 seconds 
-  Import took 0.054652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow11.fbx
-  artifactKey: Guid(aaf7aa019f23a0940afebb1950259a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow11.fbx using Guid(aaf7aa019f23a0940afebb1950259a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351e166ff9d0fa6c8ded2808f1531972') in 0.015386 seconds 
-  Import took 0.017241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow3.fbx
-  artifactKey: Guid(b3f31988fa57e6448857f14a9607ca49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow3.fbx using Guid(b3f31988fa57e6448857f14a9607ca49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b660dcab233640fc96b3ce39f271326') in 0.016731 seconds 
-  Import took 0.018684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow17.fbx
-  artifactKey: Guid(73d017596d90716449488a7d74c0b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow17.fbx using Guid(73d017596d90716449488a7d74c0b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e104cb28d544bd53d1719681c5997d35') in 0.017650 seconds 
-  Import took 0.019645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow7.fbx
-  artifactKey: Guid(741053bc327354845884391aa7b7bc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow7.fbx using Guid(741053bc327354845884391aa7b7bc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb4c4460bfd953b577725321ea55c1c') in 0.017984 seconds 
-  Import took 0.041072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow5.fbx
-  artifactKey: Guid(0367de8b5e7f1a241a7571d0b6732855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow5.fbx using Guid(0367de8b5e7f1a241a7571d0b6732855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b964c2d3ed03099303fbc2cb2db6350') in 0.014770 seconds 
-  Import took 0.016621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.463486 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent
-  artifactKey: Guid(b481069d0e76fef479ad543caab87096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/BonusContent using Guid(b481069d0e76fef479ad543caab87096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade18501a94e35685bae977dad4c2a0f') in 0.006832 seconds 
-  Import took 0.057007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025618 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Blue.prefab
-  artifactKey: Guid(f603e71ddc270d54192200e95673e2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Blue.prefab using Guid(f603e71ddc270d54192200e95673e2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1bb4854a18b6f7dd325aff69c8ef94') in 0.013594 seconds 
-  Import took 0.015608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Red.prefab
-  artifactKey: Guid(45b62242ff99b0a48a47f713cd6d1687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Red.prefab using Guid(45b62242ff99b0a48a47f713cd6d1687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8bbe547de36bb40b9a890ba1aebf88') in 0.011921 seconds 
-  Import took 0.014108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Bomb.prefab
-  artifactKey: Guid(54958f8430f04ae4ab653a498c64314c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Bomb.prefab using Guid(54958f8430f04ae4ab653a498c64314c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9420c0e6ed260f7d971e43d487789d17') in 0.014225 seconds 
-  Import took 0.016758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Flying Insect.prefab
-  artifactKey: Guid(6807a4fbab15c3444aa44ff82bcbe872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Flying Insect.prefab using Guid(6807a4fbab15c3444aa44ff82bcbe872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b5e6dda108c491132cf1a81475ed4f') in 0.018555 seconds 
-  Import took 0.020514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 1.prefab
-  artifactKey: Guid(5f7d5f60379571b4ab916f85aae80a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 1.prefab using Guid(5f7d5f60379571b4ab916f85aae80a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75f5603302361074dacf242278cb6f4') in 0.012087 seconds 
-  Import took 0.013973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 2.prefab
-  artifactKey: Guid(fa8aadfb07ca2034188c69c6f2ab4624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 2.prefab using Guid(fa8aadfb07ca2034188c69c6f2ab4624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec59dd7bfa027af86ed63d67414402df') in 0.015870 seconds 
-  Import took 0.017833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Missile.prefab
-  artifactKey: Guid(8b227e0429c621940acb9e2e8d18d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Missile.prefab using Guid(8b227e0429c621940acb9e2e8d18d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde860695e14b2c6b2b3bd3cef754250') in 0.011552 seconds 
-  Import took 0.036823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Tinniuq Planet.prefab
-  artifactKey: Guid(8c22678d7aa562145804b6f0af7e603a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Tinniuq Planet.prefab using Guid(8c22678d7aa562145804b6f0af7e603a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c9403614bfd9a1e3d192f935c1a98a') in 0.013734 seconds 
-  Import took 0.039326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.473269 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow1.prefab
-  artifactKey: Guid(f805c7b2f982faf43833878e4f22ae2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow1.prefab using Guid(f805c7b2f982faf43833878e4f22ae2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336c45c8b881adc472dcfb412de05f51') in 0.293283 seconds 
-  Import took 0.295495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow2.prefab
-  artifactKey: Guid(dae7a3955bbf76e409d09988296acacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow2.prefab using Guid(dae7a3955bbf76e409d09988296acacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1eca8eb5ca6bc18ffec6a72fe3a0f0f') in 0.032787 seconds 
-  Import took 0.034926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow10.prefab
-  artifactKey: Guid(fb80d574ec67a7c4e8ef1a14a65990f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow10.prefab using Guid(fb80d574ec67a7c4e8ef1a14a65990f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d85caa6f70cf0a23b3ed0369594f7b4') in 0.019777 seconds 
-  Import took 0.022111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow11.prefab
-  artifactKey: Guid(5a073d16030e9bb4ab4bab71c3124066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow11.prefab using Guid(5a073d16030e9bb4ab4bab71c3124066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819c260f1941302292bd3b81ef5bc5cb') in 0.021635 seconds 
-  Import took 0.023985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab
-  artifactKey: Guid(6647bc14b7f253f4aa7ed042ccbd8304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab using Guid(6647bc14b7f253f4aa7ed042ccbd8304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13be60ef2e284382c837999eef82da35') in 0.020820 seconds 
-  Import took 0.023194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow16.prefab
-  artifactKey: Guid(09980a6c8942f3141bbe411fa8a59755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow16.prefab using Guid(09980a6c8942f3141bbe411fa8a59755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a366c7929ebb3fe84ec08e1090ca65') in 0.018295 seconds 
-  Import took 0.020439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab
-  artifactKey: Guid(7ea0027aa6205b044b76dc341d565c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab using Guid(7ea0027aa6205b044b76dc341d565c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8661d60b1d1882af9cbd15f5d2670d') in 0.020563 seconds 
-  Import took 0.103373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow4.prefab
-  artifactKey: Guid(206dc24d514cdd146a07be8e731a56e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow4.prefab using Guid(206dc24d514cdd146a07be8e731a56e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981c7a0d9fd6a8d0e3f35bc54a4274dc') in 0.020028 seconds 
-  Import took 0.022396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow14.prefab
-  artifactKey: Guid(5706df97cdf27ba49a0f927eb658626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow14.prefab using Guid(5706df97cdf27ba49a0f927eb658626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8162b3d18d3f83a01cfd45cfcd3788') in 0.019838 seconds 
-  Import took 0.022585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow19.prefab
-  artifactKey: Guid(ba40a60074a505d48b216ebc896c5ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow19.prefab using Guid(ba40a60074a505d48b216ebc896c5ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc180bdaf2f460ec7acdb9bd1dc7fa8') in 0.017149 seconds 
-  Import took 0.019535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow18.prefab
-  artifactKey: Guid(fee8124d0a18d2e44b5b8f766d913b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow18.prefab using Guid(fee8124d0a18d2e44b5b8f766d913b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65fdfe31411ec94af8c01a9ce976b91') in 0.018749 seconds 
-  Import took 0.021070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow8.prefab
-  artifactKey: Guid(12e2965e034095b40b035c26bdecd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow8.prefab using Guid(12e2965e034095b40b035c26bdecd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1949a8089f580539bb64b31e787be71') in 0.018048 seconds 
-  Import took 0.020763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow3.prefab
-  artifactKey: Guid(e261f7b66a8f0fd4492d87df1eee4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow3.prefab using Guid(e261f7b66a8f0fd4492d87df1eee4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489576108e6d8359e276ec901fb41f12') in 0.015987 seconds 
-  Import took 0.018464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow20.prefab
-  artifactKey: Guid(feb130a8adcebe54aa314f58f408c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow20.prefab using Guid(feb130a8adcebe54aa314f58f408c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b97b989bc47b1c1b875ff3a86366945') in 0.016082 seconds 
-  Import took 0.018248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab
-  artifactKey: Guid(972b4b7d4d0542c4faf5702b3f9f3e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab using Guid(972b4b7d4d0542c4faf5702b3f9f3e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086ae6f986f2e600aaa8d482145300aa') in 0.015599 seconds 
-  Import took 0.017809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab
-  artifactKey: Guid(4d54efa43b03b1845b929768cf25e790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab using Guid(4d54efa43b03b1845b929768cf25e790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cb5edcf2eb26e9c5b63bc46ddbe65e') in 0.017369 seconds 
-  Import took 0.059129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab
-  artifactKey: Guid(79e4c0d1647edb24e82e40e6b4bcaa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab using Guid(79e4c0d1647edb24e82e40e6b4bcaa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3d111641caf425d1e000c998bf2ae6') in 0.015809 seconds 
-  Import took 0.018047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow9.prefab
-  artifactKey: Guid(7861019a7b8cb6f4db5310695263b29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow9.prefab using Guid(7861019a7b8cb6f4db5310695263b29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9576acec38e0f38d4f3341cfdac868c') in 0.015111 seconds 
-  Import took 0.017403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow6.prefab
-  artifactKey: Guid(33942a27e06a55e498652847d7d15f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow6.prefab using Guid(33942a27e06a55e498652847d7d15f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c1676243e3a6d9caccebb0f2166bcd') in 0.015848 seconds 
-  Import took 0.018102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab
-  artifactKey: Guid(c79905ec17c169a49b75177b6cf0d524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab using Guid(c79905ec17c169a49b75177b6cf0d524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751d0f82bf1eb3c496889733a4ce631f') in 0.016551 seconds 
-  Import took 0.018667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.280185 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow1.prefab
-  artifactKey: Guid(0478b1e28fd9831458b0f051b9d2ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow1.prefab using Guid(0478b1e28fd9831458b0f051b9d2ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e83e8b1389fbf4288a6c4fa0d993ea') in 0.019340 seconds 
-  Import took 0.021893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow17.prefab
-  artifactKey: Guid(58734c41594668840bd3847f2b5ce512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow17.prefab using Guid(58734c41594668840bd3847f2b5ce512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190f91f3e0ddb74150cdfeb59967fe01') in 0.020108 seconds 
-  Import took 0.022402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow2.prefab
-  artifactKey: Guid(9049f178339a1ec49b8d10542e9d6787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow2.prefab using Guid(9049f178339a1ec49b8d10542e9d6787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7aa276084088b9a500404b1b1c21c3') in 0.020085 seconds 
-  Import took 0.022376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab
-  artifactKey: Guid(7690b2cb20a500246a3f2b3c6e42d9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab using Guid(7690b2cb20a500246a3f2b3c6e42d9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b1e14e593dc9f5a1dccb1687fc13e3') in 0.019432 seconds 
-  Import took 0.021647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow18.prefab
-  artifactKey: Guid(aae4d5d87da633540b5fbe5ecc1e173b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow18.prefab using Guid(aae4d5d87da633540b5fbe5ecc1e173b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e540eb82974e18523f6406b0d8d476') in 0.020073 seconds 
-  Import took 0.022390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow10.prefab
-  artifactKey: Guid(9aeb31f3dfa2d3f41af8ea1b97d4a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow10.prefab using Guid(9aeb31f3dfa2d3f41af8ea1b97d4a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43478e09871ae51ea9f72d0dd66f11a7') in 0.020904 seconds 
-  Import took 0.023498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow15.prefab
-  artifactKey: Guid(89b65df352ec1024c8339534097b1170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow15.prefab using Guid(89b65df352ec1024c8339534097b1170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5de54ce4eee26cf2eb22e3eb815c11') in 0.018041 seconds 
-  Import took 0.020193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab
-  artifactKey: Guid(e47736c9193f7dd4d8dc3eef50ba64c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab using Guid(e47736c9193f7dd4d8dc3eef50ba64c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95b728f3c0c7aa30ec2189618e15cbb') in 0.018717 seconds 
-  Import took 0.021291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow14.prefab
-  artifactKey: Guid(632e35db17045744396cd464cbd1498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow14.prefab using Guid(632e35db17045744396cd464cbd1498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9624105c7e11cd35390c543571a30d') in 0.019237 seconds 
-  Import took 0.056702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow3.prefab
-  artifactKey: Guid(dc92f6c59177d3b48834d869261d80b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow3.prefab using Guid(dc92f6c59177d3b48834d869261d80b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e4a69df8264f6db141030dfb7a0399') in 0.018560 seconds 
-  Import took 0.020956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow8.prefab
-  artifactKey: Guid(821cb84404cdb734481db5d7b905b37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow8.prefab using Guid(821cb84404cdb734481db5d7b905b37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d49be74e10b9e4a7e3db032139e15a') in 0.018467 seconds 
-  Import took 0.021042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow3.prefab
-  artifactKey: Guid(dc92f6c59177d3b48834d869261d80b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow3.prefab using Guid(dc92f6c59177d3b48834d869261d80b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e4a69df8264f6db141030dfb7a0399') in 0.018655 seconds 
-  Import took 0.020944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow12.prefab
-  artifactKey: Guid(137404c3ccadbc94c8eafe555ab8aaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow12.prefab using Guid(137404c3ccadbc94c8eafe555ab8aaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2887c2042a660569c4ae99b230cf7b0d') in 0.017518 seconds 
-  Import took 0.019955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow7.prefab
-  artifactKey: Guid(ad19842cc2550fc488240fe1efb03aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow7.prefab using Guid(ad19842cc2550fc488240fe1efb03aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2789ec05e390adc6eeda772f9f5fc5') in 0.017543 seconds 
-  Import took 0.019890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow11.prefab
-  artifactKey: Guid(668f40e714e20ed499014cc822acdb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow11.prefab using Guid(668f40e714e20ed499014cc822acdb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a0428ea24d989b997da6e6c7421de2') in 0.018251 seconds 
-  Import took 0.020499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow6.prefab
-  artifactKey: Guid(38b63c01674358b448b15ee3a56538f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow6.prefab using Guid(38b63c01674358b448b15ee3a56538f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd555fa43285a327c2ecbb37478bb01') in 0.019308 seconds 
-  Import took 0.044545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow16.prefab
-  artifactKey: Guid(a303e95807e2616408f6c4cff0fd3208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow16.prefab using Guid(a303e95807e2616408f6c4cff0fd3208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03d96cc524a55f3be8a83c6796c5658') in 0.017234 seconds 
-  Import took 0.019422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow13.prefab
-  artifactKey: Guid(aa5781bb5b506524782c6e082a5127e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow13.prefab using Guid(aa5781bb5b506524782c6e082a5127e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0474eedc36255ded92de0eae68eb2f55') in 0.016934 seconds 
-  Import took 0.019234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow4.prefab
-  artifactKey: Guid(4a40092bbc207004fa51b938b96005eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow4.prefab using Guid(4a40092bbc207004fa51b938b96005eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e106a8dc65e356195a7711ea8c529d62') in 0.020015 seconds 
-  Import took 0.022304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow20.prefab
-  artifactKey: Guid(32335393ea400a44681c8f52b5c52015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow20.prefab using Guid(32335393ea400a44681c8f52b5c52015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b149e75b0d1f65f9953b4f0bef2392b') in 0.017623 seconds 
-  Import took 0.019813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow5.prefab
-  artifactKey: Guid(ec6c320a41b48f448b4f67e0c941f00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow5.prefab using Guid(ec6c320a41b48f448b4f67e0c941f00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f232f1f7031ae186bc5666ba8658be') in 0.020359 seconds 
-  Import took 0.022636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.372276 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab
-  artifactKey: Guid(328366602c7f9ae4aa29ecb957c7731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab using Guid(328366602c7f9ae4aa29ecb957c7731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859131ca41f27e134f0252a66dbcb75a') in 0.019026 seconds 
-  Import took 0.021396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1_Mirrored.prefab
-  artifactKey: Guid(c6b3f5b24fac195409550702e5daa40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1_Mirrored.prefab using Guid(c6b3f5b24fac195409550702e5daa40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd456066d24f79343cb13ef335476b962') in 0.020688 seconds 
-  Import took 0.044292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab
-  artifactKey: Guid(53643d8f33e9df94ba733d00e1c6d10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab using Guid(53643d8f33e9df94ba733d00e1c6d10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4defe546f0b285286ee18895f3b99f0b') in 0.019018 seconds 
-  Import took 0.021183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab
-  artifactKey: Guid(157f084336ed05c45947433542a2eba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab using Guid(157f084336ed05c45947433542a2eba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c013819231ff28b37855367d85e2e1') in 0.018909 seconds 
-  Import took 0.021235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab
-  artifactKey: Guid(1f78031b7183f2a4498c4cfc761ca60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab using Guid(1f78031b7183f2a4498c4cfc761ca60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4118829e290a51c3f36e90d4ab688c2') in 0.018601 seconds 
-  Import took 0.065056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab
-  artifactKey: Guid(dde490f5ea9b7d94d9594ec8d6435f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab using Guid(dde490f5ea9b7d94d9594ec8d6435f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a567dcca87ebabdd0642011bb17482') in 0.019680 seconds 
-  Import took 0.021908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon_Mirrored.prefab
-  artifactKey: Guid(f5a635a64e8270a40aa07137c6d1f162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon_Mirrored.prefab using Guid(f5a635a64e8270a40aa07137c6d1f162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22e986e73933d2a16272de4f6de5002') in 0.019075 seconds 
-  Import took 0.021406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab
-  artifactKey: Guid(b30ca3097cfd8de47aa1ba38578e0c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab using Guid(b30ca3097cfd8de47aa1ba38578e0c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb121a27e79e6dcca5b13b50cc22c4e') in 0.019108 seconds 
-  Import took 0.021305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2_Mirrored.prefab
-  artifactKey: Guid(68009645f1254634c872da28df04bab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2_Mirrored.prefab using Guid(68009645f1254634c872da28df04bab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d98ee12d89930d5d52bb855f0a03fd1') in 0.018821 seconds 
-  Import took 0.042754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab
-  artifactKey: Guid(01b4c9caff0ad4d48ac8cb23e89e5224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab using Guid(01b4c9caff0ad4d48ac8cb23e89e5224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907b977f5bc153bd7a9d100ee2d821a4') in 0.018586 seconds 
-  Import took 0.020811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab
-  artifactKey: Guid(2d009ca22ab0fc141ade283e835e506a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab using Guid(2d009ca22ab0fc141ade283e835e506a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e6fa6b1f9dc1c5944903a8f17f642e') in 0.019782 seconds 
-  Import took 0.022211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab
-  artifactKey: Guid(01b4c9caff0ad4d48ac8cb23e89e5224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab using Guid(01b4c9caff0ad4d48ac8cb23e89e5224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907b977f5bc153bd7a9d100ee2d821a4') in 0.016230 seconds 
-  Import took 0.018492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.842451 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Black.png
-  artifactKey: Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Black.png using Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa4ea34a2d870d30a26bd944dc0e72e') in 0.035543 seconds 
-  Import took 0.037939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Blue.png
-  artifactKey: Guid(eb9f71c288354cd419ac82ba188b1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Blue.png using Guid(eb9f71c288354cd419ac82ba188b1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4927cca4b55739a85c719c9f1c7736') in 0.365907 seconds 
-  Import took 0.368040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Cyan.png
-  artifactKey: Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Cyan.png using Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159f26d475cdc348f1fcb663d0c077f3') in 0.013777 seconds 
-  Import took 0.015805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Normal.png
-  artifactKey: Guid(c96423a02cfe8934286c58b144ca7a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Normal.png using Guid(c96423a02cfe8934286c58b144ca7a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a25f64b58b099c7cbb8e0c085180df4') in 0.021314 seconds 
-  Import took 0.023300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Yellow.png
-  artifactKey: Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Yellow.png using Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ad07c5e041e86c3d35c36ab96d93e6') in 0.012324 seconds 
-  Import took 0.014827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Grey.png
-  artifactKey: Guid(e80529d62d99b2a43a062d8434e9f4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Grey.png using Guid(e80529d62d99b2a43a062d8434e9f4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2662cf4c175b14c805e202462f80f2') in 0.011546 seconds 
-  Import took 0.013465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Purple.png
-  artifactKey: Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Purple.png using Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768ac91982531036b1a3fe9ba3943937') in 0.012964 seconds 
-  Import took 0.015342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Orange.png
-  artifactKey: Guid(9910943c18579a249a5a2984fdb3f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Orange.png using Guid(9910943c18579a249a5a2984fdb3f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dcaf70f47227595b422d5fcfed9966') in 0.013411 seconds 
-  Import took 0.015440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_White.png
-  artifactKey: Guid(07e73c410e4389545a8cd3e12dee52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_White.png using Guid(07e73c410e4389545a8cd3e12dee52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c99546f36b076f721cd4fa755ef490') in 0.011483 seconds 
-  Import took 0.013494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Emission.png
-  artifactKey: Guid(e285b114efc2a1240b2b32966432623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Emission.png using Guid(e285b114efc2a1240b2b32966432623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dc2d666a7a3745a86ece8f755c847f') in 0.011033 seconds 
-  Import took 0.012995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
-  artifactKey: Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png using Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038fffc71f5655aef53bcf9413221844') in 0.012711 seconds 
-  Import took 0.040197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Red.png
-  artifactKey: Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Red.png using Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e75e2ae7e3cad0ef0798b97d918730') in 0.011622 seconds 
-  Import took 0.013605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Green.png
-  artifactKey: Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Green.png using Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55864dbbc0e9ab0eeb1c9cb483812e95') in 0.012587 seconds 
-  Import took 0.014653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.809823 seconds.
-  path: Assets/StarSparrow/Textures/Masks
-  artifactKey: Guid(bb2b35ff5e2bff64baefaa2fca2a369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks using Guid(bb2b35ff5e2bff64baefaa2fca2a369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172499d5e3277a4dd750f89adab788fa') in 0.007302 seconds 
-  Import took 0.009509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000813 seconds.
-  path: Assets/StarSparrow/Textures/Masks
-  artifactKey: Guid(bb2b35ff5e2bff64baefaa2fca2a369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks using Guid(bb2b35ff5e2bff64baefaa2fca2a369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172499d5e3277a4dd750f89adab788fa') in 0.003485 seconds 
-  Import took 0.005546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053010 seconds.
-  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png
-  artifactKey: Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png using Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96410954745f51443c67efae0f7f3308') in 0.010985 seconds 
-  Import took 0.055948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png
-  artifactKey: Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png using Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3167e07661dd1758573e557474de479a') in 0.020073 seconds 
-  Import took 0.022027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Mask2.png
-  artifactKey: Guid(eb091f20a993f1b4b87383a8a86d183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask2.png using Guid(eb091f20a993f1b4b87383a8a86d183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076273c35e5d31c20569687970723aa7') in 0.011203 seconds 
-  Import took 0.013462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Mask3.png
-  artifactKey: Guid(bb3b71277204e0048925dd90850a68a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask3.png using Guid(bb3b71277204e0048925dd90850a68a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ed5bf8733dfa3c4d29acc903c5580f') in 0.011416 seconds 
-  Import took 0.013592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.795837 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids
-  artifactKey: Guid(2cf9f05de7a9b1e4c84f5585a8aebc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids using Guid(2cf9f05de7a9b1e4c84f5585a8aebc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c5b913e03b40c9df39381ae44349c4') in 0.008458 seconds 
-  Import took 0.010436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038680 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Blue.png
-  artifactKey: Guid(9c6df97ed7064654ea974c842c85ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Blue.png using Guid(9c6df97ed7064654ea974c842c85ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5d4b1c3e1e5336cb44dd73463a14de') in 0.011103 seconds 
-  Import took 0.013344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png
-  artifactKey: Guid(3f67e2f5233dc6546a70f67b5c084495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png using Guid(3f67e2f5233dc6546a70f67b5c084495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa72ba68e2e8a98e0ba12d5e109a018') in 0.013028 seconds 
-  Import took 0.015083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionBlue.png
-  artifactKey: Guid(853e3999ffda83a44a905e31b9b2f8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionBlue.png using Guid(853e3999ffda83a44a905e31b9b2f8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0707ebd781c3588dc6c0ad39bc339c17') in 0.012384 seconds 
-  Import took 0.014313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionRed.png
-  artifactKey: Guid(e313900dfc5e97e418383a91c126fe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionRed.png using Guid(e313900dfc5e97e418383a91c126fe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d20e074003d8c9e9312aae86f8f2f6') in 0.010398 seconds 
-  Import took 0.012499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Grey.png
-  artifactKey: Guid(795d73f8d514ef943bdeca72975d452d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Grey.png using Guid(795d73f8d514ef943bdeca72975d452d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0833fb5208343daf088f96726622b929') in 0.010804 seconds 
-  Import took 0.012806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Red.png
-  artifactKey: Guid(5712fdd066d766b498459de6a869ba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Red.png using Guid(5712fdd066d766b498459de6a869ba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c9ea64d62ffc71b57b82b15e0c72f0') in 0.010405 seconds 
-  Import took 0.012451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.158379 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect
-  artifactKey: Guid(6e76820252e9c294f89ab9c786651df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect using Guid(6e76820252e9c294f89ab9c786651df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355bcf654fd669e57a71db5885e7d537') in 0.007345 seconds 
-  Import took 0.009695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect
-  artifactKey: Guid(6e76820252e9c294f89ab9c786651df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect using Guid(6e76820252e9c294f89ab9c786651df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355bcf654fd669e57a71db5885e7d537') in 0.003572 seconds 
-  Import took 0.005438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038284 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png
-  artifactKey: Guid(1081a96ded5ed4d40bc35d5e1925bed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png using Guid(1081a96ded5ed4d40bc35d5e1925bed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ca3d5178f0a4555508248e2258720f') in 0.010285 seconds 
-  Import took 0.012236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png
-  artifactKey: Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png using Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdeb6dac9490be02de57199b20ad188c') in 0.012298 seconds 
-  Import took 0.014147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png
-  artifactKey: Guid(56788cf7355aae243a176c2002e84e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png using Guid(56788cf7355aae243a176c2002e84e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b80cc69dd855fa7581bfb1a6dec8c36') in 0.014397 seconds 
-  Import took 0.016463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 281.128502 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png
-  artifactKey: Guid(6f4ecb0f36aa22b4e93e4b434947cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png using Guid(6f4ecb0f36aa22b4e93e4b434947cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ee56d74867f8f2432887599998eb0d') in 2.940296 seconds 
-  Import took 2.942908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png
-  artifactKey: Guid(704376da483ef144db57a9c8a2b71253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png using Guid(704376da483ef144db57a9c8a2b71253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41576b5e3e3105225f9c10f33ea996d0') in 0.013007 seconds 
-  Import took 0.015975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png
-  artifactKey: Guid(8d0f2071706729c4d95bb30b050bc137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png using Guid(8d0f2071706729c4d95bb30b050bc137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3adecbd42b56c155b56e7503354766f') in 0.011794 seconds 
-  Import took 0.014145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Emission.png
-  artifactKey: Guid(7895bb88d21b82e4c86e0e53289c8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Emission.png using Guid(7895bb88d21b82e4c86e0e53289c8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05832b780ceb417dcae5c72807c617a0') in 0.011033 seconds 
-  Import took 0.013220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png
-  artifactKey: Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png using Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3e77ea08af8b55576f86eb1ed29b28') in 0.012108 seconds 
-  Import took 0.014253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png
-  artifactKey: Guid(50cd73a325d3a0145a19c956de7950a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png using Guid(50cd73a325d3a0145a19c956de7950a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbeba6fa0f7846de702cc4c8286774d') in 0.011596 seconds 
-  Import took 0.013515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png
-  artifactKey: Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png using Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe45611c4592416a5e4a854a506890f') in 0.013101 seconds 
-  Import took 0.015090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png
-  artifactKey: Guid(98a18c0634080da40a446c86ad6083b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png using Guid(98a18c0634080da40a446c86ad6083b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7722c7836cf53c82f3d0da8b55e10675') in 0.011208 seconds 
-  Import took 0.013349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png
-  artifactKey: Guid(a909b68486656de4986628989cc5f12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png using Guid(a909b68486656de4986628989cc5f12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d98d3d485ebd6bb097be356479b5643') in 0.012730 seconds 
-  Import took 0.014720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
-  artifactKey: Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png using Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18283a8457e7c9e11ab113ffcbb37f5') in 0.009866 seconds 
-  Import took 0.011946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_EmissionBlue.png
-  artifactKey: Guid(6dcf0670d2ea1ca4987d2a0e3d9ab0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_EmissionBlue.png using Guid(6dcf0670d2ea1ca4987d2a0e3d9ab0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05b78c685863f757440d3cf8ae71daf') in 0.009846 seconds 
-  Import took 0.011959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png
-  artifactKey: Guid(89444bc8e26f111479c9f9b288546a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png using Guid(89444bc8e26f111479c9f9b288546a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513eeaadc940e07290a932c08b74dfbb') in 0.011159 seconds 
-  Import took 0.013248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Emission.png
-  artifactKey: Guid(ef46d1ea853d99e4fbaf7d2049aa1537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Emission.png using Guid(ef46d1ea853d99e4fbaf7d2049aa1537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcded45357aa49737196a3e6f8284069') in 0.012153 seconds 
-  Import took 0.014203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png
-  artifactKey: Guid(da3c18cd4f90b7d48900ea3471d8d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png using Guid(da3c18cd4f90b7d48900ea3471d8d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0800dd95ed4932751ea07573a1ea453') in 0.011660 seconds 
-  Import took 0.013676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png
-  artifactKey: Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png using Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd86b217c04fb2f6c63cfa2f93f71a3') in 0.010975 seconds 
-  Import took 0.013082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_MetallicSmoothness.png
-  artifactKey: Guid(859aa0c16660ddf4c910e8d21103fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_MetallicSmoothness.png using Guid(859aa0c16660ddf4c910e8d21103fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbc3d3ceb470bd0b8298b5f36ed97e9') in 0.011251 seconds 
-  Import took 0.013286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png
-  artifactKey: Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png using Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd86b217c04fb2f6c63cfa2f93f71a3') in 0.008715 seconds 
-  Import took 0.010757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011448 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Clouds.png
-  artifactKey: Guid(478a6b3965fdb3749a9bbce2e0036b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Clouds.png using Guid(478a6b3965fdb3749a9bbce2e0036b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e4215261cab7ad996741552e1264bd') in 0.014040 seconds 
-  Import took 0.060761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png
-  artifactKey: Guid(35c503943e9b94a49a5cf140d6154a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png using Guid(35c503943e9b94a49a5cf140d6154a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01250a4374f71d72af2204b02250def') in 0.009927 seconds 
-  Import took 0.011836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png
-  artifactKey: Guid(b617caa5ef54773409f566190c82a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png using Guid(b617caa5ef54773409f566190c82a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9c9709d596ba8df4f0b58984ef265f') in 0.013277 seconds 
-  Import took 0.015490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Normal.png
-  artifactKey: Guid(cbdbc14d991fe424c8ad8afda55c8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Normal.png using Guid(cbdbc14d991fe424c8ad8afda55c8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a504c5023badc8e5154e1ef4dd4b145f') in 0.012984 seconds 
-  Import took 0.014880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002122 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Normal.png
-  artifactKey: Guid(cbdbc14d991fe424c8ad8afda55c8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Normal.png using Guid(cbdbc14d991fe424c8ad8afda55c8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a504c5023badc8e5154e1ef4dd4b145f') in 0.012314 seconds 
-  Import took 0.014412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.609539 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/Materials
-  artifactKey: Guid(ff8404ef0e8b9ce4b86b0c8a454681c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/Materials using Guid(ff8404ef0e8b9ce4b86b0c8a454681c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68454088064f63582800dfdb7e7b05d') in 0.006805 seconds 
-  Import took 0.008854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.175037 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/Materials/AsteroidsLava_EmissionBlue.mat
-  artifactKey: Guid(c230f2382899c794cb02288422324bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/Materials/AsteroidsLava_EmissionBlue.mat using Guid(c230f2382899c794cb02288422324bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5d77b752172a7ed11661e43e4b7e33') in 0.029590 seconds 
-  Import took 0.031843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/Materials/AsteroidsLava_Red.mat
-  artifactKey: Guid(98489536d0a31f84395c483a80488cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/Materials/AsteroidsLava_Red.mat using Guid(98489536d0a31f84395c483a80488cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec5147b4c53150018f07cef27be4990') in 0.012437 seconds 
-  Import took 0.014642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/Materials/AsteroidsLava_EmissionRed.mat
-  artifactKey: Guid(3a9c5851963b8f44cbc61d0b57074930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/Materials/AsteroidsLava_EmissionRed.mat using Guid(3a9c5851963b8f44cbc61d0b57074930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cf8cbd66febd8a66f40c29e64fa02c') in 0.013649 seconds 
-  Import took 0.016258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 144.343374 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
-  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ed59a48b952935c94a9302b2b79e3d') in 0.011716 seconds 
-  Import took 0.014359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.525320 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Materials
-  artifactKey: Guid(f41c3b72724814049810a7b5a6ae8b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Materials using Guid(f41c3b72724814049810a7b5a6ae8b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9ec71983d888dcfbb1c913c3c051c0') in 0.004706 seconds 
-  Import took 0.007138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058971 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Materials/Clouds.mat
-  artifactKey: Guid(248e234c4cd0f2242ae4dcab3ddfec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Materials/Clouds.mat using Guid(248e234c4cd0f2242ae4dcab3ddfec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3023879da40ddb4d298139b525499a') in 0.013093 seconds 
-  Import took 0.015256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Materials/Tinniuq_Normal.mat
-  artifactKey: Guid(9529d37de3acab04ba19af0303afb71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Materials/Tinniuq_Normal.mat using Guid(9529d37de3acab04ba19af0303afb71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48c5996520296fac2b6b2dd3846f967') in 0.012557 seconds 
-  Import took 0.014622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Materials/Tinniuq_MetallicSmoothness.mat
-  artifactKey: Guid(1fb4525c2d2ec6e4f8aba8da75251691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Materials/Tinniuq_MetallicSmoothness.mat using Guid(1fb4525c2d2ec6e4f8aba8da75251691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affaaf2c70dab3ee816e5223d7717234') in 0.010831 seconds 
-  Import took 0.012942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Materials/Tinniuq_Albedo.mat
-  artifactKey: Guid(d13686d188888df4b94ac9318a74496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Materials/Tinniuq_Albedo.mat using Guid(d13686d188888df4b94ac9318a74496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a9e42b35e94dd7848e78fc57e8df3f') in 0.016380 seconds 
-  Import took 0.018472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 134.130583 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet
-  artifactKey: Guid(d509526e3dcb5fc45a53b7a963abcb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet using Guid(d509526e3dcb5fc45a53b7a963abcb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1deb459ef3f6f177e83f60d3144cef6') in 0.007702 seconds 
-  Import took 0.010549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 449.106358 seconds.
-  path: Assets/Materiales/pantallaInicial/Stars
-  artifactKey: Guid(39e0e8aa2a27d5d4e9f348163cb59009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/pantallaInicial/Stars using Guid(39e0e8aa2a27d5d4e9f348163cb59009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c22eec5d45ad2ae78fe0a1fee2aa7e4') in 0.007463 seconds 
-  Import took 0.010344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 795.880622 seconds.
-  path: Assets/Materiales/introScreen/Animaciones/press space to skip.anim
-  artifactKey: Guid(0bcfe28c4718c6740beef97972843cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Animaciones/press space to skip.anim using Guid(0bcfe28c4718c6740beef97972843cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac6c10c228d55daf68764a7a09a80a5') in 0.010309 seconds 
-  Import took 0.012800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000664 seconds.
-  path: Assets/Materiales/introScreen/Animaciones/press space to skip.anim
-  artifactKey: Guid(0bcfe28c4718c6740beef97972843cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/introScreen/Animaciones/press space to skip.anim using Guid(0bcfe28c4718c6740beef97972843cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac6c10c228d55daf68764a7a09a80a5') in 0.098214 seconds 
-  Import took 0.101262 seconds .
+  path: Assets/Materiales/pantallaInicial/Musica/Space Invaders PS1 OST - Main Menu.mp3
+  artifactKey: Guid(d40b1d2dc8b210e4ba63140afd260a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/pantallaInicial/Musica/Space Invaders PS1 OST - Main Menu.mp3 using Guid(d40b1d2dc8b210e4ba63140afd260a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489fc06a95abb5ce394b6c9b31f69d28') in 0.130492 seconds 
+  Import took 0.138074 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003742 seconds.
+Registered in 0.003486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.8 MB.
+System memory in use after: 68.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 1.548800 ms (FindLiveObjects: 0.111000 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.353700 ms  DeleteObjects: 0.046100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003366 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
+- Completed reload, in  0.831 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.3 MB.
-System memory in use after: 70.3 MB.
+System memory in use before: 68.9 MB.
+System memory in use after: 69.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1885.
-Total: 1.841400 ms (FindLiveObjects: 0.109600 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.636400 ms  DeleteObjects: 0.062200 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1851.
+Total: 1.564500 ms (FindLiveObjects: 0.117700 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.360500 ms  DeleteObjects: 0.049600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1330,3 +144,103 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2810.521636 seconds.
+  path: Assets/Materiales/screenIntro2/Musica/Amongus.mp3
+  artifactKey: Guid(b0706db332b2458498059496129ee973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/screenIntro2/Musica/Amongus.mp3 using Guid(b0706db332b2458498059496129ee973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be728f168816a2d6e933a16766ed739') in 0.052837 seconds 
+  Import took 0.055334 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004220 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.9 MB.
+System memory in use after: 69.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1855.
+Total: 1.622800 ms (FindLiveObjects: 0.105400 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.435700 ms  DeleteObjects: 0.048000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 560.929701 seconds.
+  path: Assets/Materiales/introScreen/Musica
+  artifactKey: Guid(dd93693079cb70041aee670b36f32780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/introScreen/Musica using Guid(dd93693079cb70041aee670b36f32780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e30875cfd6be21995c6d60f3b6964cc') in 0.010305 seconds 
+  Import took 0.031234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.426430 seconds.
+  path: Assets/Materiales/pantallaInicial/Musica
+  artifactKey: Guid(5c75aba90ee9a2240ad3689fa847ea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/pantallaInicial/Musica using Guid(5c75aba90ee9a2240ad3689fa847ea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3591725380463321dfac57106e675b2') in 0.006875 seconds 
+  Import took 0.371906 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.0 MB.
+System memory in use after: 69.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1858.
+Total: 1.590900 ms (FindLiveObjects: 0.122300 ms CreateObjectMapping: 0.037300 ms MarkObjects: 1.385600 ms  DeleteObjects: 0.044500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 544.611818 seconds.
+  path: Assets/Materiales/pantallaInicial/Animaciones/SpaceShip
+  artifactKey: Guid(c760ec0922b734648bfb789e2e223fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/pantallaInicial/Animaciones/SpaceShip using Guid(c760ec0922b734648bfb789e2e223fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c866109c1c5b006d792ac6cd5d7faf3') in 0.012326 seconds 
+  Import took 0.393475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.921321 seconds.
+  path: Assets/Materiales/pantallaInicial/Animaciones/SpaceShip/SpaceShip.anim
+  artifactKey: Guid(341cde413151316428cce0f0c88e9ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/pantallaInicial/Animaciones/SpaceShip/SpaceShip.anim using Guid(341cde413151316428cce0f0c88e9ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3991f995d4e29df0f6055580d8cb6fd6') in 0.050263 seconds 
+  Import took 0.070516 seconds .
+

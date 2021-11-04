@@ -44,8 +44,9 @@ public class gameControler : MonoBehaviour
         {
             cronometro += Time.deltaTime;
             //Que cuando el texto desaparezca se cambie a la segunda pantalla
-            if (cronometro >= 77.0f)
+            if (cronometro >= 83.0f)
             {
+                texto3d.SetActive(false);
                 gameControler.instance.EnableScreenAnybutton();
             }
             //Que cambie a la segunda pantalla al dar espacio
@@ -57,6 +58,7 @@ public class gameControler : MonoBehaviour
         }         
         else if (pressAnyButtonScreen.activeSelf == true && Input.GetKeyDown(KeyCode.Space))
         {
+            texto3d.SetActive(false);
             gameControler.instance.EnablePantallaInicial();
         }
     }

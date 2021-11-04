@@ -14,6 +14,7 @@ public class gameControler : MonoBehaviour
     public GameObject pantallaOpciones;
     public GameObject screenRecords;
     public GameObject screenGame;
+    public GameObject texto3d;
 
     private float cronometro = 0.0f;
 
@@ -50,6 +51,7 @@ public class gameControler : MonoBehaviour
             //Que cambie a la segunda pantalla al dar espacio
             else if (Input.GetKeyDown(KeyCode.Space))
             {
+                texto3d.SetActive(false);
                 gameControler.instance.EnableScreenAnybutton();
             }
         }         

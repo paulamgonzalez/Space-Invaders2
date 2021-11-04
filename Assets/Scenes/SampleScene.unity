@@ -1235,7 +1235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &285072480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1910,6 +1910,7 @@ MonoBehaviour:
   pantallaOpciones: {fileID: 917811211}
   screenRecords: {fileID: 654832895}
   screenGame: {fileID: 1862191537}
+  texto3d: {fileID: 1074899120}
 --- !u!4 &428909482
 Transform:
   m_ObjectHideFlags: 0
@@ -3739,7 +3740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 2147039847}
+  m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &907729598
@@ -8375,7 +8376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1866446919
 MonoBehaviour:
   m_ObjectHideFlags: 0

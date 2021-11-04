@@ -12,6 +12,8 @@ public class gameControler : MonoBehaviour
     public GameObject pressAnyButtonScreen;
     public GameObject pantallaInicial;
     public GameObject pantallaOpciones;
+    public GameObject screenRecords;
+    public GameObject screenGame;
 
     private float cronometro = 0.0f;
 
@@ -78,5 +80,17 @@ public class gameControler : MonoBehaviour
     {
         pantallaInicial.SetActive(false);
         pantallaOpciones.SetActive(true);
+    }
+
+    public void EnablePantallaRecords()
+    {
+        pantallaInicial.SetActive(false);
+        screenRecords.SetActive(true);
+    }
+
+    public void EnablePantallaJuego()
+    {
+        pantallaInicial.SetActive(false);
+        screenGame.SetActive(true);
     }
 }

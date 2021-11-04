@@ -82,13 +82,13 @@ public class gameControler : MonoBehaviour
         pantallaOpciones.SetActive(true);
     }
 
-    public void EnablePantallaRecords()
+   public void EnablePantallaRecords()
     {
         pantallaInicial.SetActive(false);
         screenRecords.SetActive(true);
     }
 
-    public void EnablePantallaJuego()
+    public void EnablePantallaGame()
     {
         pantallaInicial.SetActive(false);
         screenGame.SetActive(true);

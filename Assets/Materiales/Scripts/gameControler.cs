@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class gameControler : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class gameControler : MonoBehaviour
     public GameObject screenRecords;
     public GameObject screenGame;
     public GameObject texto3d;
+    
 
     private float cronometro = 0.0f;
 
@@ -42,6 +44,7 @@ public class gameControler : MonoBehaviour
     {
         if (introScreen.activeSelf == true)
         {
+            
             cronometro += Time.deltaTime;
             //Que cuando el texto desaparezca se cambie a la segunda pantalla
             if (cronometro >= 83.0f)

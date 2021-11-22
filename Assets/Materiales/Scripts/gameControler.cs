@@ -81,12 +81,14 @@ public class gameControler : MonoBehaviour
     {
         pressAnyButtonScreen.SetActive(false);
         pantallaInicial.SetActive(true);
+        screenGame.SetActive(false);
     }
 
     public void EnablePantallaOpciones()
     {
         pantallaInicial.SetActive(false);
         pantallaOpciones.SetActive(true);
+        screenGame.SetActive(false);
     }
 
    public void EnablePantallaRecords()
@@ -100,4 +102,6 @@ public class gameControler : MonoBehaviour
         pantallaInicial.SetActive(false);
         screenGame.SetActive(true);
     }
+
+    
 }

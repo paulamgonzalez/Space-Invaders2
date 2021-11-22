@@ -248,7 +248,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &61898683
 GameObject:
@@ -584,7 +584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -341.99988, y: -140}
+  m_AnchoredPosition: {x: -341.99985, y: -140}
   m_SizeDelta: {x: -1486.532, y: -975.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &121354417
@@ -735,6 +735,7 @@ GameObject:
   - component: {fileID: 131505150}
   - component: {fileID: 131505149}
   - component: {fileID: 131505148}
+  - component: {fileID: 131505151}
   m_Layer: 5
   m_Name: Button2JugadoresLocal
   m_TagString: Untagged
@@ -775,15 +776,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 1701161365}
+    m_SelectOnDown: {fileID: 1532116889}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.78823537, g: 0.49803925, b: 0.8862746, a: 1}
     m_PressedColor: {r: 0.7882353, g: 0.49803922, b: 0.8862745, a: 1}
     m_SelectedColor: {r: 0.78823537, g: 0.49803925, b: 0.8862746, a: 1}
@@ -805,7 +806,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 131505149}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 26065614}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &131505149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -819,7 +832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -844,6 +857,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131505146}
   m_CullTransparentMesh: 1
+--- !u!114 &131505151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131505146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac740b37b7f8ff145a8809cd9c37b1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myButton: {fileID: 131505148}
+  myText: {fileID: 1128934621}
+  defaultTextColor: {r: 0, g: 0, b: 0, a: 0}
+  effect: {fileID: 1009382881}
 --- !u!1 &139267435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,7 +3648,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &580807780
 GameObject:
@@ -5195,7 +5224,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &917439905
 GameObject:
@@ -6453,7 +6482,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1021576241
 GameObject:
@@ -8041,7 +8070,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -41.799995, y: 0}
+  m_AnchoredPosition: {x: -41.799988, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408317488
@@ -8764,6 +8793,7 @@ GameObject:
   - component: {fileID: 1532116891}
   - component: {fileID: 1532116890}
   - component: {fileID: 1532116889}
+  - component: {fileID: 1532116892}
   m_Layer: 5
   m_Name: Button2JugadoresOnline
   m_TagString: Untagged
@@ -8788,8 +8818,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -402, y: -110.37999}
-  m_SizeDelta: {x: 209.856, y: 28.14}
+  m_AnchoredPosition: {x: -403, y: -111.449}
+  m_SizeDelta: {x: 228.367, y: 27.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1532116889
 MonoBehaviour:
@@ -8804,15 +8834,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 131505148}
+    m_SelectOnDown: {fileID: 1580986980}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.7882353, g: 0.49803922, b: 0.8862745, a: 1}
     m_PressedColor: {r: 0.78823537, g: 0.49803925, b: 0.8862746, a: 1}
     m_SelectedColor: {r: 0.78823537, g: 0.49803925, b: 0.8862746, a: 1}
@@ -8834,7 +8864,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1532116890}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 26065614}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1532116890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8848,7 +8890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8873,6 +8915,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532116887}
   m_CullTransparentMesh: 1
+--- !u!114 &1532116892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532116887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac740b37b7f8ff145a8809cd9c37b1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myButton: {fileID: 1532116889}
+  myText: {fileID: 1408317488}
+  defaultTextColor: {r: 0, g: 0, b: 0, a: 0}
+  effect: {fileID: 1009382881}
 --- !u!1 &1549513351
 GameObject:
   m_ObjectHideFlags: 0
@@ -9436,6 +9494,8 @@ GameObject:
   - component: {fileID: 1580986982}
   - component: {fileID: 1580986981}
   - component: {fileID: 1580986980}
+  - component: {fileID: 1580986983}
+  - component: {fileID: 1580986984}
   m_Layer: 5
   m_Name: ButtonCancel
   m_TagString: Untagged
@@ -9476,15 +9536,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 1532116889}
+    m_SelectOnDown: {fileID: 1701161365}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.2509804, g: 0.8980392, b: 0.59607846, a: 1}
     m_PressedColor: {r: 0.2509804, g: 0.8980393, b: 0.59607846, a: 1}
     m_SelectedColor: {r: 0.2509804, g: 0.8980393, b: 0.59607846, a: 1}
@@ -9506,7 +9566,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1580986981}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 428909481}
+        m_TargetAssemblyTypeName: gameControler, Assembly-CSharp
+        m_MethodName: EnablePantallaInicial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 26065614}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1580986981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9520,7 +9604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9545,6 +9629,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580986978}
   m_CullTransparentMesh: 1
+--- !u!114 &1580986983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580986978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f3d7ac8030b2342ad940ffefeb6127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScreen: {fileID: 1862191537}
+  nextScreen: {fileID: 285072479}
+--- !u!114 &1580986984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580986978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac740b37b7f8ff145a8809cd9c37b1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myButton: {fileID: 1580986980}
+  myText: {fileID: 1963079118}
+  defaultTextColor: {r: 0, g: 0, b: 0, a: 0}
+  effect: {fileID: 1009382881}
 --- !u!1 &1588814532
 GameObject:
   m_ObjectHideFlags: 0
@@ -10338,7 +10452,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -356.39, y: 43}
+  m_AnchoredPosition: {x: -356.38998, y: 43}
   m_SizeDelta: {x: -1515.316, y: -959.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677263394
@@ -10489,6 +10603,7 @@ GameObject:
   - component: {fileID: 1701161367}
   - component: {fileID: 1701161366}
   - component: {fileID: 1701161365}
+  - component: {fileID: 1701161368}
   m_Layer: 5
   m_Name: Button1Jugador
   m_TagString: Untagged
@@ -10529,15 +10644,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 1580986980}
+    m_SelectOnDown: {fileID: 131505148}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.78823537, g: 0.49803925, b: 0.8862746, a: 1}
     m_PressedColor: {r: 0.7882353, g: 0.49803922, b: 0.8862745, a: 1}
     m_SelectedColor: {r: 0.78823537, g: 0.49803925, b: 0.8862746, a: 1}
@@ -10559,7 +10674,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1701161366}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 26065614}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1701161366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10573,7 +10700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10598,6 +10725,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701161363}
   m_CullTransparentMesh: 1
+--- !u!114 &1701161368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701161363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac740b37b7f8ff145a8809cd9c37b1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myButton: {fileID: 1701161365}
+  myText: {fileID: 250594229}
+  defaultTextColor: {r: 0, g: 0, b: 0, a: 0}
+  effect: {fileID: 1009382881}
 --- !u!1 &1724982804
 GameObject:
   m_ObjectHideFlags: 0
@@ -11028,6 +11171,7 @@ GameObject:
   - component: {fileID: 1862191540}
   - component: {fileID: 1862191539}
   - component: {fileID: 1862191538}
+  - component: {fileID: 1862191542}
   m_Layer: 5
   m_Name: screenSeleccionGame
   m_TagString: Untagged
@@ -11121,6 +11265,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1862191542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862191537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f75cf47f929904ab68dc4b4db22e9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedButton: {fileID: 1701161365}
 --- !u!1 &1866446918
 GameObject:
   m_ObjectHideFlags: 0
@@ -11844,7 +12001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -396.71997, y: 238}
+  m_AnchoredPosition: {x: -396.71994, y: 238}
   m_SizeDelta: {x: -1377.082, y: -966.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022558975

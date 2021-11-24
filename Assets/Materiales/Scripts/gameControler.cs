@@ -9,13 +9,18 @@ public class gameControler : MonoBehaviour
 
     public static gameControler instance;
 
+    //pantallas 
     public GameObject introScreen;
     public GameObject pressAnyButtonScreen;
     public GameObject pantallaInicial;
     public GameObject pantallaOpciones;
     public GameObject screenRecords;
     public GameObject screenGame;
+    public GameObject screenGame2;
+
+
     public GameObject texto3d;
+    
     
 
     private float cronometro = 0.0f;
@@ -101,6 +106,12 @@ public class gameControler : MonoBehaviour
     {
         pantallaInicial.SetActive(false);
         screenGame.SetActive(true);
+    }
+
+    public void EnablePantallaGame2()
+    {
+        screenGame.SetActive(false);
+        screenGame2.SetActive(true);
     }
 
     

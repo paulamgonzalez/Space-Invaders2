@@ -50,5 +50,17 @@ MonoBehaviour:
     m_Localized: Play
     m_Metadata:
       m_Items: []
+  - m_Id: 1439563091980288
+    m_Localized: 1 Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2116427682852864
+    m_Localized: 2 Players Local Coop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2116562026409984
+    m_Localized: 2 Players Online
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

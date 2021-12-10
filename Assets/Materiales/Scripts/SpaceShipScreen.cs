@@ -13,8 +13,12 @@ public class SpaceShipScreen : MonoBehaviour
     public Slider shieldSlider;
     public TextMeshProUGUI spaceName;
 
-    public float speed = 1;
+    public GameObject nave1;
+    public GameObject nave2;
+    public GameObject nave3;
 
+    public float speed = 1;
+    public int index = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,5 +55,23 @@ public class SpaceShipScreen : MonoBehaviour
             speedSlider.value += Time.deltaTime * speed;
         }
 
+        if (index == 0)
+        {
+            nave1.SetActive(true);
+            nave2.SetActive(false);
+            nave3.SetActive(false);
+        }
+        if (index == 1)
+        {
+            nave2.SetActive(true);
+            nave1.SetActive(false);
+            nave3.SetActive(false);
+        }
+        if (index == 2)
+        {
+            nave3.SetActive(true);
+            nave2.SetActive(false);
+            nave1.SetActive(false);
+        }
     }
 }

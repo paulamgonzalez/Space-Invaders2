@@ -22,7 +22,7 @@ public class SpaceShipScreen : MonoBehaviour
     public float speed = 1;
     public int index = 0;
 
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,9 +36,16 @@ public class SpaceShipScreen : MonoBehaviour
         Debug.Log("shield" + infoSpaceShip[index].shield);
         Debug.Log("spaceName" + infoSpaceShip[index].spaceshipname);
 
-        for (int i = 0; i < modeloNaves.Length ; i++)
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        for (int i = 0; i < modeloNaves.Length; i++)
         {
-            if(i == index)
+            if (i == index)
             {
                 modeloNaves[i].SetActive(true);
             }
@@ -47,12 +54,7 @@ public class SpaceShipScreen : MonoBehaviour
                 modeloNaves[i].SetActive(false);
             }
         }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-       
         spaceName.text = infoSpaceShip[index].spaceshipname;
 
 
@@ -70,27 +72,25 @@ public class SpaceShipScreen : MonoBehaviour
         {
             speedSlider.value += Time.deltaTime * speed;
         }
-  
+
     }
-    public void ChangeNave()
+
+    public void NextShip()
     {
-        if (index == 0)
+        index++;
+        if (index > 2)
         {
-            nave1.SetActive(true);
-            nave2.SetActive(false);
-            nave3.SetActive(false);
-        }
-        if (index == 1)
-        {
-            nave2.SetActive(true);
-            nave1.SetActive(false);
-            nave3.SetActive(false);
-        }
-        if (index == 2)
-        {
-            nave3.SetActive(true);
-            nave2.SetActive(false);
-            nave1.SetActive(false);
+            index = 0;
         }
     }
+
+    public void PreviousShip()
+    {
+        index--;
+        if (index < 0)
+        {
+            index = 2;
+        }
+    }
+
 }

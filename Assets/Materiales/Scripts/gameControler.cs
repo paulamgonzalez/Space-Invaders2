@@ -17,6 +17,7 @@ public class gameControler : MonoBehaviour
     public GameObject screenRecords;
     public GameObject screenGame;
     public GameObject screenGame2;
+    public GameObject screenGame3;
 
 
     public GameObject texto3d;
@@ -113,6 +114,19 @@ public class gameControler : MonoBehaviour
         screenGame.SetActive(false);
         screenGame2.SetActive(true);
     }
+
+    public void DisablePantallaGame2()
+    {
+        screenGame2.SetActive(false);
+        screenGame.SetActive(true);
+    }
+
+    public void EnablePantallaGame3()
+    {
+        screenGame3.SetActive(true);
+        screenGame2.SetActive(false);
+    }
+
 
     
 }

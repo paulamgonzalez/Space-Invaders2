@@ -82,6 +82,9 @@ public class SpaceShipScreen : MonoBehaviour
         {
             index = 0;
         }
+        shieldSlider.value = 0;
+        heatSlider.value = 0;
+        speedSlider.value = 0;
     }
 
     public void PreviousShip()
@@ -91,6 +94,9 @@ public class SpaceShipScreen : MonoBehaviour
         {
             index = 2;
         }
+        shieldSlider.value = 0;
+        heatSlider.value = 0;
+        speedSlider.value = 0;
     }
 
 }

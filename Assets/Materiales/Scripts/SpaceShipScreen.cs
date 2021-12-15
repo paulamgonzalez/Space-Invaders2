@@ -80,7 +80,7 @@ public class SpaceShipScreen : MonoBehaviour
             speedSlider.value += Time.deltaTime * speed;
         }
 
-        //para que la musica del anterior script pare.
+        //para que la musica del anterior script pare y siga la cancion normal en la siguiente pantalla.
 
         if(pantallaEleccionNaves == true)
         {

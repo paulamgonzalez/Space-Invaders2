@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
 
 
 public class SpaceShipScreen : MonoBehaviour
@@ -19,10 +20,15 @@ public class SpaceShipScreen : MonoBehaviour
     public GameObject nave3;
     public GameObject[] modeloNaves;
 
+    public AudioSource musica1;
+    public AudioSource musica2;
+    public AudioSource musicaInicio;
+    public GameObject pantallaEleccionNaves;
+
     public float speed = 1;
     public int index = 0;
 
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +48,7 @@ public class SpaceShipScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
 
         for (int i = 0; i < modeloNaves.Length; i++)
         {
@@ -71,6 +78,15 @@ public class SpaceShipScreen : MonoBehaviour
         if (speedSlider.value < infoSpaceShip[index].speed)
         {
             speedSlider.value += Time.deltaTime * speed;
+        }
+
+        //para que la musica del anterior script pare.
+
+        if(pantallaEleccionNaves == true)
+        {
+            musica1.Pause();
+            musica2.Pause();
+            musicaInicio.UnPause();
         }
 
     }

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spaceshipname: Viper
   shield: 1
-  speed: 3
-  heat: 1
+  speed: 1
+  heat: 3

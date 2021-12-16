@@ -15,4 +15,4 @@ MonoBehaviour:
   spaceshipname: Voyager
   shield: 1
   speed: 2
-  heat: 2
+  heat: 1

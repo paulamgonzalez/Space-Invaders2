@@ -91,6 +91,8 @@ public class SpaceShipScreen : MonoBehaviour
 
     }
 
+    //Botones 
+
     public void NextShip()
     {
         index++;

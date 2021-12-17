@@ -32,10 +32,9 @@ public class SpaceShipScreen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speedSlider.value = 0;
-        heatSlider.value = 0;
-        shieldSlider.value = 0;
-        spaceName.text = infoSpaceShip[index].spaceshipname;
+
+        MostrarNaveActual();
+        
 
         Debug.Log("speed" + infoSpaceShip[index].speed);
         Debug.Log("heat" + infoSpaceShip[index].heat);
@@ -48,7 +47,24 @@ public class SpaceShipScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+ 
+        ActualizarSlider(shieldSlider, infoSpaceShip[index].shield);
+        ActualizarSlider(heatSlider, infoSpaceShip[index].heat);
+        ActualizarSlider(speedSlider, infoSpaceShip[index].speed);
+
+        //para que la musica del anterior script pare y siga la cancion normal en la siguiente pantalla.
+
+        if(pantallaEleccionNaves == true)
+        {
+            musica1.Pause();
+            musica2.Pause();
+            musicaInicio.UnPause();
+        }
+
+    }
+
+    public void MostrarNaveActual()
+    {
 
         for (int i = 0; i < modeloNaves.Length; i++)
         {
@@ -61,32 +77,19 @@ public class SpaceShipScreen : MonoBehaviour
                 modeloNaves[i].SetActive(false);
             }
         }
-
         spaceName.text = infoSpaceShip[index].spaceshipname;
+    }
 
+    public void ActualizarSlider(Slider generico, int valor)
+    {
 
-        if (shieldSlider.value < infoSpaceShip[index].shield)
+        if (generico.value < valor)
         {
-            shieldSlider.value += Time.deltaTime * speed;
+            generico.value += Time.deltaTime * speed;
         }
-
-        if (heatSlider.value < infoSpaceShip[index].heat)
+        else if (generico.value > valor)
         {
-            heatSlider.value += Time.deltaTime * speed;
-        }
-
-        if (speedSlider.value < infoSpaceShip[index].speed)
-        {
-            speedSlider.value += Time.deltaTime * speed;
-        }
-
-        //para que la musica del anterior script pare y siga la cancion normal en la siguiente pantalla.
-
-        if(pantallaEleccionNaves == true)
-        {
-            musica1.Pause();
-            musica2.Pause();
-            musicaInicio.UnPause();
+            generico.value -= Time.deltaTime * speed;
         }
 
     }
@@ -100,9 +103,7 @@ public class SpaceShipScreen : MonoBehaviour
         {
             index = 0;
         }
-        shieldSlider.value = 0;
-        heatSlider.value = 0;
-        speedSlider.value = 0;
+        MostrarNaveActual();
     }
 
     public void PreviousShip()
@@ -112,9 +113,8 @@ public class SpaceShipScreen : MonoBehaviour
         {
             index = 2;
         }
-        shieldSlider.value = 0;
-        heatSlider.value = 0;
-        speedSlider.value = 0;
+        MostrarNaveActual();
+
     }
 
 }

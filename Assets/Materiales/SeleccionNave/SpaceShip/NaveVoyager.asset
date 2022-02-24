@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7de216968321dc44a38e13fd89ee40e, type: 3}
   m_Name: NaveVoyager
   m_EditorClassIdentifier: 
+  prefab: {fileID: 1366990129996023977, guid: f840d38d403e2f448972a556b9c63e2d, type: 3}
   spaceshipname: Voyager
   shield: 1
   speed: 2

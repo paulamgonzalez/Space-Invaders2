@@ -104,6 +104,7 @@ public class SpaceShipScreen : MonoBehaviour
             index = 0;
         }
         MostrarNaveActual();
+        GameDataPersistent.instance.selectedSpaceship = infoSpaceShip[index];
     }
 
     public void PreviousShip()
@@ -114,6 +115,7 @@ public class SpaceShipScreen : MonoBehaviour
             index = 2;
         }
         MostrarNaveActual();
+        GameDataPersistent.instance.selectedSpaceship = infoSpaceShip[index];
 
     }
 

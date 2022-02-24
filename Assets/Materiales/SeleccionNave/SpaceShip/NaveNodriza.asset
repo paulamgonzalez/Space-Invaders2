@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7de216968321dc44a38e13fd89ee40e, type: 3}
   m_Name: NaveNodriza
   m_EditorClassIdentifier: 
+  prefab: {fileID: 950433130502664429, guid: 7e548e1334bf28c48b96710a368bf508, type: 3}
   spaceshipname: Nodriza
   shield: 2
   speed: 1

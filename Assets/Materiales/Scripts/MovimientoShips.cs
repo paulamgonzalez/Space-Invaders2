@@ -5,7 +5,11 @@ using UnityEngine;
 public class MovimientoShips : MonoBehaviour
 {
     Vector3 myMov = Vector3.zero;
-    public float movSpeed = 2;
+    float vertical;
+
+    public float movSpeed = 10;
+
+    Rigidbody2D rigidbody2d;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,16 +19,11 @@ public class MovimientoShips : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
-        {
-            myMov += Vector3.right;
-            transform.eulerAngles = new Vector3(0, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            myMov += Vector3.left;
-            transform.eulerAngles = new Vector3(0, 90, 0);
-        }
-        transform.Translate(myMov.normalized * Time.deltaTime * movSpeed, Space.World);
+        vertical = Input.GetAxis("Vertical");
+        
+
+        Vector2 position = rigidbody2d.position;
+        position = position  * movSpeed * Time.deltaTime;
+        rigidbody2d.MovePosition(position);
     }
 }

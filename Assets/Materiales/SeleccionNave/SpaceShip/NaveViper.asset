@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7de216968321dc44a38e13fd89ee40e, type: 3}
   m_Name: NaveViper
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5993597531016434216, guid: 9548b6bf1f651c144908046b7b0b044c, type: 3}
+  prefab: {fileID: 7195281954869700958, guid: 29a9f5a2f90f61741b27a0f81c254658, type: 3}
   spaceshipname: Viper
   shield: 1
   speed: 1

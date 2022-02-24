@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class SpaceShipData : ScriptableObject
 {
+    public GameObject prefab;
     public string spaceshipname;
     [Range(0, 3.0f)]
     public int shield;

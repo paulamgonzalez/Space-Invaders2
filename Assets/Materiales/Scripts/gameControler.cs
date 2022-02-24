@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class gameControler : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class gameControler : MonoBehaviour
     public GameObject screenGame;
     public GameObject screenGame2;
     public GameObject screenGame3;
+
+    public string SceneName;
 
 
     public GameObject texto3d;
@@ -121,9 +124,9 @@ public class gameControler : MonoBehaviour
         screenGame.SetActive(true);
     }
 
-    public void EnablePantallaGame3()
+    public void LoadNewScene()
     {
-        screenGame3.SetActive(true);
+        SceneManager.LoadScene(SceneName);
         screenGame2.SetActive(false);
     }
 

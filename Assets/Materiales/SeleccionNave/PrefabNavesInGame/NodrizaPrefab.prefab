@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6472630871289974936}
   - component: {fileID: 9051150926319117625}
   - component: {fileID: 13556947635987600}
+  - component: {fileID: 6920747896698227204}
   m_Layer: 0
   m_Name: NodrizaPrefab
   m_TagString: Untagged
@@ -95,4 +96,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4a5576d04bd31c4894eaeb292ababe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+--- !u!114 &6920747896698227204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080806392462403506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a41decbec3b5b84983df4fb9d525f8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 1592725807701838400, guid: 6c917bbafc96d9649860d00efcae6a5f, type: 3}

@@ -29,7 +29,7 @@ public class NaveDisparo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         speedAtaque -= Time.deltaTime;
 
 

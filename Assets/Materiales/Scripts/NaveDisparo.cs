@@ -10,9 +10,9 @@ public class NaveDisparo : MonoBehaviour
 
     Vector3 lookDirection = new Vector3(0, 1);
 
-    float timer;
 
-    bool timerDisparo;
+
+    bool boolDisparo = false;
 
     float speedAtaque;
 
@@ -22,21 +22,47 @@ public class NaveDisparo : MonoBehaviour
 
         speedAtaque = GameDataPersistent.instance.selectedSpaceship.heat;
 
+        speedAtaque = 0;
+
 
     }
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.I))
+
+        speedAtaque -= Time.deltaTime;
+        //TiempoEspera();
+
+
+        if (speedAtaque <= 0 && Input.GetKey(KeyCode.I))
         {
             Launch();
+            boolDisparo = true;
         }
+
+        if (boolDisparo == true)
+        {
+            speedAtaque = GameDataPersistent.instance.selectedSpaceship.heat;
+            boolDisparo = false;
+        }
+
     }
 
-    void TiempoEspera()
+
+    //Tiempo entre disparo
+    /*public void TiempoEspera()
     {
-        
-    }
+        if(speedAtaque <= 0 && Input.GetKey(KeyCode.I))
+        {
+            Launch();
+            boolDisparo = true;
+        }
+        else if(boolDisparo == true)
+        {
+            speedAtaque = GameDataPersistent.instance.selectedSpaceship.heat;
+            boolDisparo = false;
+        }       
+    }*/
 
     
 

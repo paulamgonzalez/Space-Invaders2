@@ -18,7 +18,7 @@ public class ProyectilController : MonoBehaviour
     void Update()
     {
         //Esto sirve para no tener cientos de projectiles sin colisionar
-        if (transform.position.magnitude > 1000.0f) //sirve para que si el proyectil no colisiona con nada, se destruya
+        if (transform.position.magnitude > 500.0f) //sirve para que si el proyectil no colisiona con nada, se destruya
         {
             Destroy(gameObject);
         }

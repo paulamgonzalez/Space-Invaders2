@@ -32,7 +32,7 @@ public class ProyectilController : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         
-        if (collision.gameObject.tag == "Marcianos") //si e no esta vacio (e haciendo referecnia al enemigo)
+        if (collision.gameObject.tag == "Marcianos") 
         {
             collision.gameObject.SetActive(false);
         }

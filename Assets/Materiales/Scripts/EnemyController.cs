@@ -27,7 +27,7 @@ public class EnemyController : MonoBehaviour
             {
                 if (enemiesList[x].enemies[y].activeSelf == true) //Si el enemigo de la posicion xy esta activo entonces di el nombre
                 {
-                    Debug.Log(enemiesList[x].enemies[y].name);
+                    //Debug.Log(enemiesList[x].enemies[y].name);
                 }
 
             }

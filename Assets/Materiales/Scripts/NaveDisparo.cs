@@ -22,7 +22,7 @@ public class NaveDisparo : MonoBehaviour
 
         speedAtaque = GameDataPersistent.instance.selectedSpaceship.heat;
 
-        speedAtaque = 0;
+        speedAtaque = 0; 
 
 
     }
@@ -31,7 +31,6 @@ public class NaveDisparo : MonoBehaviour
     {
 
         speedAtaque -= Time.deltaTime;
-        //TiempoEspera();
 
 
         if (speedAtaque <= 0 && Input.GetKey(KeyCode.I))

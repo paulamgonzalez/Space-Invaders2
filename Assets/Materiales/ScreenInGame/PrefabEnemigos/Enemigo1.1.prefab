@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -6204705313936015877}
   m_Layer: 0
   m_Name: Enemigo1.1
-  m_TagString: Untagged
+  m_TagString: Marcianos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

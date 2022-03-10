@@ -8,21 +8,41 @@ public class NaveDisparo : MonoBehaviour
 
     Rigidbody rigidbody3d;
 
-    Vector3 lookDirection = new Vector3(1, 0);
+    Vector3 lookDirection = new Vector3(0, 1);
+
+    float timer;
+
+    bool timerDisparo;
+
+    float speedAtaque;
+
+    private void Start()
+    {
+        rigidbody3d = GetComponent<Rigidbody>();
+
+        speedAtaque = GameDataPersistent.instance.selectedSpaceship.heat;
+
+
+    }
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.I))
+        if(Input.GetKeyDown(KeyCode.I))
         {
             Launch();
         }
+    }
+
+    void TiempoEspera()
+    {
+        
     }
 
     
 
     void Launch()
     {
-        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody3d.position + Vector3.up * 0.5f, Quaternion.identity);
+        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody3d.position + Vector3.up * 15.5f, Quaternion.identity);
 
         ProyectilController projectile = projectileObject.GetComponent<ProyectilController>();
 

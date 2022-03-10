@@ -5,14 +5,14 @@ using UnityEngine;
 public class MovimientoShips : MonoBehaviour
 {
 
-    float speedd = GameDataPersistent.instance.selectedSpaceship.speed;
+    float speedd;
 
 
 
     // Start is called before the first frame update
     public void Start()
     {
-       
+       speedd = GameDataPersistent.instance.selectedSpaceship.speed;
     }
 
     // Update is called once per frame

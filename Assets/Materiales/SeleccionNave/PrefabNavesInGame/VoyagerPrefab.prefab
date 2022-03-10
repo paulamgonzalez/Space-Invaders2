@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5354199840035311706}
   - component: {fileID: 802470435840101769}
   - component: {fileID: -8781508166721730911}
+  - component: {fileID: 1818194569640412524}
+  - component: {fileID: -8638865630878895237}
   m_Layer: 0
   m_Name: VoyagerPrefab
   m_TagString: Untagged
@@ -109,3 +111,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1592725807701838400, guid: 6c917bbafc96d9649860d00efcae6a5f, type: 3}
+--- !u!65 &1818194569640412524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063214108577285469}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.8, y: 8.8, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &-8638865630878895237
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063214108577285469}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0

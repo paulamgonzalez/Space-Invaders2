@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2916846074894995995
+--- !u!1 &4179293818305626232
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2916846074894995997}
-  - component: {fileID: 2916846074894995996}
-  - component: {fileID: -4387729530954074565}
-  - component: {fileID: -2882830868822953028}
-  - component: {fileID: 2916846076098370138}
-  m_Layer: 8
-  m_Name: Enemigo2.1
-  m_TagString: Marcianos
+  - component: {fileID: 773552903366841032}
+  - component: {fileID: 2572453295803412650}
+  - component: {fileID: -2323012617473901744}
+  m_Layer: 0
+  m_Name: NaveNodriza
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2916846074894995997
+--- !u!4 &773552903366841032
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2916846074894995995}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -66.7, y: 20.599998, z: 0}
-  m_LocalScale: {x: 0.3089117, y: 0.3089117, z: 0.3089117}
+  m_GameObject: {fileID: 4179293818305626232}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 402.7, y: 50, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2916846074894995996
+--- !u!212 &2572453295803412650
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2916846074894995995}
+  m_GameObject: {fileID: 4179293818305626232}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,56 +72,26 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: b836d98b42ab3374daeed54410b132a6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1f5f2b7ec5c398347876d733ec3bd243, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 99.9, y: 99.9}
+  m_Size: {x: 10.56, y: 10.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-4387729530954074565
+--- !u!114 &-2323012617473901744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2916846074894995995}
+  m_GameObject: {fileID: 4179293818305626232}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bf14469fc7010e45a678c5c54c54168, type: 3}
+  m_Script: {fileID: 11500000, guid: e682310285377b9458ff1009d4391052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemigoBala: {fileID: 3239896445479924454, guid: dacf8c84ae778d94a94f8a81f66d1155, type: 3}
---- !u!54 &-2882830868822953028
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2916846074894995995}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 120
-  m_CollisionDetection: 0
---- !u!65 &2916846076098370138
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2916846074894995995}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 43.015987, y: 53.336773, z: 0.19999996}
-  m_Center: {x: -0.119959995, y: 1.4401003, z: 0}

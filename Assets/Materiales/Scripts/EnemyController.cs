@@ -5,7 +5,20 @@ using System;
 
 public class EnemyController : MonoBehaviour
 {
+    float timeEnemigo;
+    bool disparoEnemigo = false;
+
+    Vector3 naveGrandePos = new Vector3(402.7f, 70f);
+    public GameObject naveGrande;
+    float timerNaveGrande = 10f;
+    float timerNaveGrandeMin = 10f;
+    float timerNaveGrandeMax = 20f;
+
+
+
     [Serializable]
+
+    
     public class EnemiesList //esto es un array dentro de un array
     {
         public GameObject[] enemies;
@@ -39,43 +52,61 @@ public class EnemyController : MonoBehaviour
     //Desactivar el enemylist[x] y el enemies[y]
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space)) //toda esta movida es porq el tema del disparo es muy similar
+
+        timeEnemigo -= Time.deltaTime;
+        timerNaveGrande -= Time.deltaTime;
+        if(timerNaveGrande <=0)
         {
-            int lastX = enemiesList.Length - 1;
-            int lastY = enemiesList[lastX].enemies.Length - 1;
-            bool foundLastActive = false;
-            //ejer
-            for (int x = 0; x < enemiesList.Length; x++)
-            {
-                for (int y = 0; y < enemiesList[x].enemies.Length; y++)
-                {
-                    if (enemiesList[x].enemies[y].activeSelf == false && foundLastActive == false) //para
-                    {
-                        foundLastActive = true;
-                    }
-                    else if (enemiesList[x].enemies[y].activeSelf == true && foundLastActive == false) // dice cual es el ultimo
-                    {
-                        lastX = x;
-                        lastY = y;
-
-
-
-
-
-
-
-
-                    }
-
-                }
-            }
-
-            //desactiva el enemigo final
-            enemiesList[3].enemies[enemiesList[3].enemies.Length - 1].SetActive(false); //los enemigos se desactivan no se destruyen
-            PrintArray();
+            SpawnNaveGrande();
         }
 
+        if(timeEnemigo <= 0)
+        {
+            disparoEnemigo = true;
+            Attack();
 
+        }
+
+        if(disparoEnemigo == true)
+        {
+            timeEnemigo = 2f;
+            disparoEnemigo = false;
+        }
+
+        
+    }
+
+
+
+    public void Attack()
+    {
+
+        //selecc columna aleatoria
+        int randomColumna = UnityEngine.Random.Range(0, enemiesList.Length);
+        Debug.Log("columna que va a atacar" + randomColumna);
+
+
+        //Busca el ultimo activo de la columna
+        GameObject[] columnaAttack = enemiesList[randomColumna].enemies;
+        int row = 0;
+        for (int y = 0; y<columnaAttack.Length; y++)
+        {
+            if(columnaAttack[y].activeSelf == true)
+            {
+                row = y;
+            }
+            columnaAttack[row].GetComponent<EnemieAttack>().Ataque();
+        }
+
+    }
+
+    public void SpawnNaveGrande()
+    {
+        Instantiate(naveGrande, naveGrandePos, Quaternion.identity);
+        timerNaveGrande = UnityEngine.Random.Range(timerNaveGrandeMin, timerNaveGrandeMax);
+
+        naveGrande.SetActive(true);
+        naveGrande.transform.localPosition = new Vector3(402.7f, 70f);
     }
 
 

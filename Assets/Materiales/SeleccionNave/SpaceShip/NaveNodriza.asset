@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NaveNodriza
   m_EditorClassIdentifier: 
   prefab: {fileID: 2080806392462403506, guid: c2b9b63d7e8de5f4094d18fdee9ff96e, type: 3}
-  spaceshipname: Nodriza
+  spaceshipname: Orion
   shield: 2
   speed: 1
   heat: 2

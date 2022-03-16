@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -8781508166721730911}
   - component: {fileID: 1818194569640412524}
   - component: {fileID: -8638865630878895237}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VoyagerPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,16 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ProyectilController : MonoBehaviour
 {
     Rigidbody rigidbody3d;
+
+
+
+    //public GameObject enemigo1;
+    //public GameObject enemigo2;
+    //public GameObject enemigo3;
+
+    /*int enemigoPoint1 = 10;
+    int enemigoPoint2 = 20;
+    int enemigoPoint3 = 30;
+
+    int puntosActuales = 0;
+
+    public TextMeshProUGUI puntosLabel;*/
+
+    
 
     float speedAtaque;
     // Start is called before the first frame update
     void Awake()
     {
         rigidbody3d = GetComponent<Rigidbody>();
+
+        //puntosLabel.text = puntosActuales.ToString();
         
     }
 
@@ -35,6 +54,22 @@ public class ProyectilController : MonoBehaviour
         if (collision.gameObject.tag == "Marcianos") 
         {
             collision.gameObject.SetActive(false);
+
+           /* if(enemigo1 == false)
+            {
+                puntosActuales += enemigoPoint1;
+                puntosLabel.text = puntosActuales.ToString();
+            }
+            if (enemigo2 == false)
+            {
+                puntosActuales += enemigoPoint2;
+                puntosLabel.text = puntosActuales.ToString();
+            }
+            if (enemigo3 == false)
+            {
+                puntosActuales += enemigoPoint3;
+                puntosLabel.text = puntosActuales.ToString();
+            }*/
         }
         Destroy(gameObject);// para que se destruya el proyectil y no se quede ahi pegado
     }

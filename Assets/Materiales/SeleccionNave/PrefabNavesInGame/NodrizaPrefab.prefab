@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6920747896698227204}
   - component: {fileID: -8349271818065626070}
   - component: {fileID: 1467528934109725585}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: NodrizaPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

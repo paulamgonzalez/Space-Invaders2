@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2578786091028402260}
   - component: {fileID: -5005750766169644660}
   - component: {fileID: 7248975940503090739}
-  - component: {fileID: -4575867035335692047}
+  - component: {fileID: 8748811960932099489}
   m_Layer: 11
   m_Name: ProyectilEnemigo
   m_TagString: Untagged
@@ -114,7 +114,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
---- !u!114 &-4575867035335692047
+--- !u!114 &8748811960932099489
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +126,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9af511a6a4b184791bac9713e1d647, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemigo1: {fileID: 0}
-  enemigo2: {fileID: 0}
-  enemigo3: {fileID: 0}
-  puntosLabel: {fileID: 0}

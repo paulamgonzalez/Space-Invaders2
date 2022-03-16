@@ -1,17 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PointsManage : MonoBehaviour
 {
-    public GameObject enemigo1;
-    public GameObject enemigo2;
-    public GameObject enemigo3;
+    
 
-    int enemigoPoint1;
-    int enemigoPoint2;
-    int enemigoPoint3;
+   
 
+    public int puntosActuales = 0;
+
+    public TextMeshProUGUI puntosLabel;
 
     // Start is called before the first frame update
     void Start()
@@ -20,11 +20,13 @@ public class PointsManage : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        if(gameObject.tag == "Player")
-        {
-
-        }
+        puntosLabel.text = puntosActuales.ToString();
     }
+
+    
+        
+
+    
 }

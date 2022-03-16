@@ -8,18 +8,17 @@ public class ProyectilController : MonoBehaviour
     Rigidbody rigidbody3d;
 
 
+    public PointsManage pointsManage;
 
-    //public GameObject enemigo1;
-    //public GameObject enemigo2;
-    //public GameObject enemigo3;
+    public GameObject enemigo1;
+    public GameObject enemigo2;
+    public GameObject enemigo3;
 
-    /*int enemigoPoint1 = 10;
+    int enemigoPoint1 = 10;
     int enemigoPoint2 = 20;
     int enemigoPoint3 = 30;
 
-    int puntosActuales = 0;
-
-    public TextMeshProUGUI puntosLabel;*/
+    
 
     
 
@@ -55,21 +54,20 @@ public class ProyectilController : MonoBehaviour
         {
             collision.gameObject.SetActive(false);
 
-           /* if(enemigo1 == false)
+            
+
+            if (enemigo1 == false)
             {
-                puntosActuales += enemigoPoint1;
-                puntosLabel.text = puntosActuales.ToString();
+                pointsManage.puntosActuales += enemigoPoint1;
             }
             if (enemigo2 == false)
             {
-                puntosActuales += enemigoPoint2;
-                puntosLabel.text = puntosActuales.ToString();
+                pointsManage.puntosActuales += enemigoPoint2;
             }
             if (enemigo3 == false)
             {
-                puntosActuales += enemigoPoint3;
-                puntosLabel.text = puntosActuales.ToString();
-            }*/
+                pointsManage.puntosActuales += enemigoPoint3;
+            }
         }
         Destroy(gameObject);// para que se destruya el proyectil y no se quede ahi pegado
     }

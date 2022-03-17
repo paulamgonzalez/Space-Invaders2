@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -4003826681322299219}
   m_Layer: 9
   m_Name: Proyectil
-  m_TagString: Untagged
+  m_TagString: Poyectil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,8 +96,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8.7213745, y: 4.5090175, z: 0.2}
-  m_Center: {x: 0.00000055428205, y: -0.22661842, z: 0}
+  m_Size: {x: 8.7213745, y: 4.5090175, z: 6.115793}
+  m_Center: {x: 0.00000041033613, y: -0.22661838, z: 0}
 --- !u!54 &-868523574437284315
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -126,7 +126,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9af511a6a4b184791bac9713e1d647, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemigo1: {fileID: 652396032761960738, guid: 599c266a8812f5f4186e6d0d80878b74, type: 3}
-  enemigo2: {fileID: 2916846074894995995, guid: 133246db6f19d38448372ed1a585634b, type: 3}
-  enemigo3: {fileID: 8586352429705944294, guid: 5e83f9c0154692a448c233bb11906f41, type: 3}
-  puntosLabel: {fileID: 0}

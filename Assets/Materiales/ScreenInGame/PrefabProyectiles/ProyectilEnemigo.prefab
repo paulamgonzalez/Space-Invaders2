@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8748811960932099489}
   m_Layer: 11
   m_Name: ProyectilEnemigo
-  m_TagString: Untagged
+  m_TagString: Proyectilnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,8 +96,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.610547, y: 7.2276554, z: 0.19999999}
-  m_Center: {x: 0.25873592, y: -1.018774, z: 0}
+  m_Size: {x: 5.610547, y: 7.2276554, z: 13.589094}
+  m_Center: {x: 0.2587358, y: -1.018774, z: 1.1213228}
 --- !u!54 &7248975940503090739
 Rigidbody:
   m_ObjectHideFlags: 0

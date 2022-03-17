@@ -95,8 +95,14 @@ public class EnemyController : MonoBehaviour
             {
                 row = y;
             }
+            
+        }
+
+        if(row != -1)
+        {
             columnaAttack[row].GetComponent<EnemieAttack>().Ataque();
         }
+
 
     }
 

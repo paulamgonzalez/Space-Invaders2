@@ -8,21 +8,23 @@ public class ProyectilController : MonoBehaviour
     Rigidbody rigidbody3d;
 
 
-    public PointsManage pointsManage;
+   /* public PointsManage pointsManage;
 
     public GameObject enemigo1;
     public GameObject enemigo2;
     public GameObject enemigo3;
+   public GameObject enemigoNodriza;
 
     int enemigoPoint1 = 10;
     int enemigoPoint2 = 20;
-    int enemigoPoint3 = 30;
+    int enemigoPoint3 = 30;*/
+   //int enemigoNodriza = 50;
 
     
 
     
 
-    float speedAtaque;
+    
     // Start is called before the first frame update
     void Awake()
     {
@@ -54,9 +56,9 @@ public class ProyectilController : MonoBehaviour
         {
             collision.gameObject.SetActive(false);
 
-            
 
-            if (enemigo1 == false)
+
+            /*if (enemigo1 == false)
             {
                 pointsManage.puntosActuales += enemigoPoint1;
             }
@@ -68,6 +70,12 @@ public class ProyectilController : MonoBehaviour
             {
                 pointsManage.puntosActuales += enemigoPoint3;
             }
+            
+            if(enemigoNodriza == false)
+
+                 pointsManage.puntosActuales += enemigoP        
+             
+             */
         }
         Destroy(gameObject);// para que se destruya el proyectil y no se quede ahi pegado
     }

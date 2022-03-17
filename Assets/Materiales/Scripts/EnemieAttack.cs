@@ -11,10 +11,14 @@ public class EnemieAttack : MonoBehaviour
     Rigidbody rigidbodyEnemigo;
 
     
+
+    
     // Start is called before the first frame update
     void Start()
     {
         rigidbodyEnemigo = GetComponent<Rigidbody>();
+
+        
 
         
     }
@@ -32,6 +36,11 @@ public class EnemieAttack : MonoBehaviour
         projectile.Disparo(lookDirection, 300);
     }
 
-    
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Me han dado socorrooooo!!");
+    }
+
+
 
 }

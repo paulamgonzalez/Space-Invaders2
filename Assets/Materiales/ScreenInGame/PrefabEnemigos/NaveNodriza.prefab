@@ -15,11 +15,11 @@ GameObject:
   - component: {fileID: -191188817372946484}
   m_Layer: 8
   m_Name: NaveNodriza
-  m_TagString: Marcianos
+  m_TagString: MarcianoNodriza
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &773552903366841032
 Transform:
   m_ObjectHideFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4179293818305626232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 402.7, y: 70, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 2.2, y: 2.2, z: 2.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

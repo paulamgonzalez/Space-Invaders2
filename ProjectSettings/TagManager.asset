@@ -7,6 +7,10 @@ TagManager:
   - Marcianos
   - Poyectil
   - Proyectilnemigo
+  - MarcianoAbajo
+  - MarcianoArriba
+  - MarcianoMedio
+  - MarcianoNodriza
   layers:
   - Default
   - TransparentFX

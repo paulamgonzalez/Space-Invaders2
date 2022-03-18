@@ -36,10 +36,7 @@ public class EnemieAttack : MonoBehaviour
         projectile.Disparo(lookDirection, 300);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("Me han dado socorrooooo!!");
-    }
+   
 
 
 

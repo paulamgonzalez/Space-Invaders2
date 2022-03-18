@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2916846076098370138}
   m_Layer: 8
   m_Name: Enemigo2.1
-  m_TagString: Marcianos
+  m_TagString: MarcianoArriba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

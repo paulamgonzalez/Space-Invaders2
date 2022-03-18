@@ -9,7 +9,7 @@ public class PointsManage : MonoBehaviour
 
    
 
-    public int puntosActuales = 0;
+    public static int  puntosActuales = 0;
 
     public TextMeshProUGUI puntosLabel;
 

@@ -7,30 +7,17 @@ public class ProyectilController : MonoBehaviour
 {
     Rigidbody rigidbody3d;
 
-
-   /* public PointsManage pointsManage;
-
-    public GameObject enemigo1;
-    public GameObject enemigo2;
-    public GameObject enemigo3;
-   public GameObject enemigoNodriza;
-
     int enemigoPoint1 = 10;
     int enemigoPoint2 = 20;
-    int enemigoPoint3 = 30;*/
-   //int enemigoNodriza = 50;
-
-    
-
-    
-
-    
+    int enemigoPoint3 = 30;
+   int enemigoPointNodriza = 50;
+ 
     // Start is called before the first frame update
     void Awake()
     {
         rigidbody3d = GetComponent<Rigidbody>();
 
-        //puntosLabel.text = puntosActuales.ToString();
+        
         
     }
 
@@ -47,36 +34,42 @@ public class ProyectilController : MonoBehaviour
     public void Disparo(Vector3 up, float force)
     {
         rigidbody3d.AddForce(up * force * 10f);
+        
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        
-        if (collision.gameObject.tag == "Marcianos") 
+
+        if (collision.gameObject.tag == "MarcianoAbajo")
         {
             collision.gameObject.SetActive(false);
 
+            PointsManage.puntosActuales += enemigoPoint1;
 
-
-            /*if (enemigo1 == false)
-            {
-                pointsManage.puntosActuales += enemigoPoint1;
-            }
-            if (enemigo2 == false)
-            {
-                pointsManage.puntosActuales += enemigoPoint2;
-            }
-            if (enemigo3 == false)
-            {
-                pointsManage.puntosActuales += enemigoPoint3;
-            }
-            
-            if(enemigoNodriza == false)
-
-                 pointsManage.puntosActuales += enemigoP        
-             
-             */
         }
+        if (collision.gameObject.tag == "MarcianoArriba")
+        {
+            collision.gameObject.SetActive(false);
+
+            PointsManage.puntosActuales += enemigoPoint3;
+
+        }
+        if (collision.gameObject.tag == "MarcianoMedio")
+        {
+            collision.gameObject.SetActive(false);
+
+            PointsManage.puntosActuales += enemigoPoint2;
+
+        }
+
+        if (collision.gameObject.tag == "MarcianoNodriza")
+        {
+            collision.gameObject.SetActive(false);
+
+            PointsManage.puntosActuales += enemigoPointNodriza;
+
+        }
+ 
         Destroy(gameObject);// para que se destruya el proyectil y no se quede ahi pegado
     }
 

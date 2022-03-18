@@ -128,6 +128,7 @@ public class gameControler : MonoBehaviour
     {
         SceneManager.LoadScene(SceneName);
         screenGame2.SetActive(false);
+        pantallaInicial.SetActive(true);
     }
 
 

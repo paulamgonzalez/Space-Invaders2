@@ -73,4 +73,21 @@ public class NaveDisparo : MonoBehaviour
 
         projectile.Disparo(lookDirection, 300);
     }
+
+
+    
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (speedAtaque <= 0 && Input.GetKey(KeyCode.K))
+        {
+            Launch();
+            boolDisparo = true;
+
+            if (collision.gameObject.tag == "MarcianoArriba" + "MarcianoAbajo" + "MarcianoMedio")
+            {
+
+            }
+        }
+    }
 }

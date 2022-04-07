@@ -10,7 +10,10 @@ public class EnemieAttack : MonoBehaviour
     Vector3 lookDirection = new Vector3(0, -1);
     Rigidbody rigidbodyEnemigo;
 
+   public float timerMovimiento = 1;
+
     
+
 
     
     // Start is called before the first frame update
@@ -26,7 +29,7 @@ public class EnemieAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        timerMovimiento -= Time.deltaTime;
     }
 
     public void Ataque()
@@ -36,7 +39,15 @@ public class EnemieAttack : MonoBehaviour
         projectile.Disparo(lookDirection, 300);
     }
 
-   
+   public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "TopeIzq")
+        {
+
+            EnemyController.instance.ChoqueEnBarrea();
+        }
+        
+    }
 
 
 

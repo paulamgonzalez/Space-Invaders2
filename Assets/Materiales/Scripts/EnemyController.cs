@@ -17,17 +17,12 @@ public class EnemyController : MonoBehaviour
 
     public GameObject pantallaGanaste;
 
-    float timer = 0;
-    float timerMove = 0.5f;
-    int numeroMovimientos = 0;
-    float speed = 2f;
+    public float timer = 0f;
+    public float timeToMove = 3f;
+    public float speed = 0.5f;
+    public int numeroMovimienos = 0;
 
-    public int numeroEnemigos = 0;
-
-
-    bool victoria = false;
-    
-
+    public static EnemyController instance;
 
     [Serializable]
 
@@ -38,7 +33,18 @@ public class EnemyController : MonoBehaviour
     }
     public EnemiesList[] enemiesList;
 
-   
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
+
     void Start()
     {
         PrintArray();//Llamamos a la funcion que revisa la array
@@ -47,68 +53,17 @@ public class EnemyController : MonoBehaviour
        
     }
 
-    
-    
-
-    
     void Update()
     {
-        //numeroEnemigos = enemiesList.Length;
-       /* if (victoria == true && numeroEnemigos == 0)
-        {
-            pantallaGanaste.SetActive(true);
-            naveGrande.SetActive(false);
-        }*/
-
-        //Movimiento marcianos
-        if (numeroMovimientos == 14) //Movimiento hacia abajo
-        {
-            transform.Translate(new Vector3(0, -1, 0));
-            speed = -speed;
-            numeroMovimientos = -1;
-            timer = 0;
-        }
-        timer += Time.deltaTime;
-        if(timer > timerMove && numeroMovimientos <14)//Movimiento hacia un lado
-        {
-            transform.Translate(new Vector3(speed, 0, 0));
-            timer = 0;
-            numeroMovimientos++;
-            
-        }
-        
-
-
-        //Movimiento nave nodriza
-        timeEnemigo -= Time.deltaTime;
-        timerNaveGrande -= Time.deltaTime;
-        if(timerNaveGrande <=0)
-        {
-            SpawnNaveGrande();
-        }
-
-        if(timeEnemigo <= 0)
-        {
-            disparoEnemigo = true;
-            Attack();
-
-        }
-
-        if(disparoEnemigo == true)
-        {
-            timeEnemigo = 2f;
-            disparoEnemigo = false;
-        }
-
+        MovimientoNaveGrande(); 
 
         VictoryScreen();
 
-        
-        
+        MovimientoEnemigos();
     }
 
-    //Hacemos un bucle para q mire toda la array
-    void PrintArray()
+    
+    void PrintArray() //Array de los enemigos
     {
         for (int x = 0; x < enemiesList.Length; x++) //esto es apara q mire en horizontal la array (filas)
         {
@@ -116,19 +71,16 @@ public class EnemyController : MonoBehaviour
             {
                 if (enemiesList[x].enemies[y].activeSelf == true) //Si el enemigo de la posicion xy esta activo entonces di el nombre
                 {
-                    numeroEnemigos++;
+                   
              
                 }
-                else
-                {
-                    numeroEnemigos -= 1;
-                }
+                
 
             }   
         }
-    }
+    } 
 
-    public void Attack()
+    public void Attack() //Funcion ataque de los enemigos
     {
 
         //selecc columna aleatoria
@@ -145,13 +97,7 @@ public class EnemyController : MonoBehaviour
             {
                 row = y;
                 
-            }
-            else if(columnaAttack[y].activeSelf == false)
-            {
-                numeroEnemigos--;
-            }
-             
-            
+            }          
         }
 
         if(row != -1) // pa que no ataquen si estan muertops
@@ -160,31 +106,109 @@ public class EnemyController : MonoBehaviour
         }
 
 
+    } 
+
+    public void MovimientoEnemigos()
+    {
+        for (int x = 0; x < enemiesList.Length; x++) //esto es apara q mire en horizontal la array (filas)
+        {
+            for (int y = 0; y < enemiesList[x].enemies.Length; y++) //esto es para que mire en verical la array (columnas)
+            {
+                if (enemiesList[x].enemies[y].activeSelf == true) //Si el enemigo de la posicion xy esta activo entonces di el nombre
+                {
+
+                    timer += Time.deltaTime;
+                    if (timer > timeToMove)
+                    {
+                        transform.position += (new Vector3(speed, 0, 0));
+                        timer = 0;
+                        numeroMovimienos++;
+                    }
+                }
+
+
+            }
+        }
     }
 
-    public void SpawnNaveGrande()
+    public void SpawnNaveGrande() //Funcion aparicion Nave Nodriza 
     {
-        Instantiate(naveGrande, naveGrandePos, Quaternion.identity);
+        Instantiate(naveGrande, naveGrandePos, Quaternion.identity); //el instantiate sirve para clonar el objeto del prefab y hacerlo aparecer en pantalla, ademas podemos decirle como queremos que aparezca, en este caso el quaternion lo usamos para eso .
         timerNaveGrande = UnityEngine.Random.Range(timerNaveGrandeMin, timerNaveGrandeMax);
 
         naveGrande.SetActive(true);
         naveGrande.transform.localPosition = new Vector3(402.7f, 70f);
-    }
+    } 
 
-
-    public void VictoryScreen()
+    public void MovimientoNaveGrande()
     {
-
-
-        if(numeroEnemigos <= 0)
+        timeEnemigo -= Time.deltaTime;
+        timerNaveGrande -= Time.deltaTime;
+        if (timerNaveGrande <= 0)
         {
+            SpawnNaveGrande();
+        }
 
-            pantallaGanaste.SetActive(true);
-            naveGrande.SetActive(false);
-            victoria = true;
+        if (timeEnemigo <= 0)
+        {
+            disparoEnemigo = true;
+            Attack();
+
+        }
+
+        if (disparoEnemigo == true)
+        {
+            timeEnemigo = 2f;
+            disparoEnemigo = false;
+        }
+
+    } //Funcion movimiento nave nodriza
+
+    public void VictoryScreen() //Funcion Pantalla Victoria
+    {
+         int numeroEnemigos = 44;
+
+        for (int x = 0; x < enemiesList.Length; x++) //esto es apara q mire en horizontal la array (filas)
+        {
+            for (int y = 0; y < enemiesList[x].enemies.Length; y++) //esto es para que mire en verical la array (columnas)
+            {
+                if (enemiesList[x].enemies[y].activeSelf == false) //Si el enemigo de la posicion xy esta activo entonces di el nombre
+                {
+                    numeroEnemigos -= 1;
+                }
+
+                if(numeroEnemigos <= 0)
+                {
+                    pantallaGanaste.SetActive(true);
+                    naveGrande.SetActive(false);
+                }
+            }
         }
 
 
     }
 
+    public void ChoqueEnBarrea()
+    {
+        transform.Translate(new Vector3(0, -0.5f, 0));
+        numeroMovimienos = -1;
+        speed = -speed;
+        timer = 0;
+    }
+
+    public void OnCollisionEnter(Collision collision) 
+    {
+        
+
+        if (collision.gameObject.tag == "TopeIzq")
+        {
+            transform.Translate(new Vector3(0, -0.5f, 0));
+            numeroMovimienos = -1;
+            speed = -speed;
+            timer = 0;
+        }
+        
+    }
+
+    
 }

@@ -20,13 +20,13 @@ public class ScreenInGameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        puntosFinales.text = "Puntos totales" + PointsManage.puntosActuales.ToString();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        puntosFinales.text = "Puntos totales = " + PointsManage.puntosActuales.ToString();
     }
 
     public void RestartGame()

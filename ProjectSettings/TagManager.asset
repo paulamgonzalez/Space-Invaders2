@@ -11,6 +11,10 @@ TagManager:
   - MarcianoArriba
   - MarcianoMedio
   - MarcianoNodriza
+  - TopeIzq
+  - TopeDer
+  - Escudo
+  - TopeArriba
   layers:
   - Default
   - TransparentFX
